@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Speech-notes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Speech-notes</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 27 Nov 2024 01:40:10 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 27 Nov 2024 01:40:06 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[End-to-End Speech Recognition: A Survey]]></title><description><![CDATA[ 
+ <br><br>The term ”classical” here refers to the former long-term state-of-the-art ASR architecture based on the decomposition into acoustic and language model and with acoustic modeling based on hidden Markov models.<br>]]></description><link>asr\e2e\e2e-asr.html</link><guid isPermaLink="false">ASR/E2E/E2E ASR.md</guid><pubDate>Mon, 28 Oct 2024 14:51:13 GMT</pubDate></item><item><title><![CDATA[Speech Recognition]]></title><description><![CDATA[ 
+ ]]></description><link>asr\speech-recognition.html</link><guid isPermaLink="false">ASR/Speech Recognition.md</guid><pubDate>Mon, 28 Oct 2024 14:47:19 GMT</pubDate></item><item><title><![CDATA[Phonetics and Synthesis]]></title><description><![CDATA[ 
+ <br><br>Almost a Chinese translation of <a data-tooltip-position="top" aria-label="https://people.kth.se/~ghe/pubs/present/malisz2019modern-slides.pdf" rel="noopener nofollow" class="external-link" href="https://people.kth.se/~ghe/pubs/present/malisz2019modern-slides.pdf" target="_blank">Modern speech synthesis for phonetic sciences</a>, assisted by ChatGPT 4o.<br><br>
+<br>
+语音技术（speech technology）和语音科学（speech sciences）曾经对话互利
+
+<br>注：Speech Science 与 Phonetics 似乎并不能画等号。参见 <a data-tooltip-position="top" aria-label="https://www.phon.ucl.ac.uk/courses/pals0009/week1.php" rel="noopener nofollow" class="external-link" href="https://www.phon.ucl.ac.uk/courses/pals0009/week1.php" target="_blank">PALS0009 Introduction to Speech Science</a>，<a data-tooltip-position="top" aria-label="https://www.uni-marburg.de/en/studying/degree-programs/humanities/m-speechscience-phonetics" rel="noopener nofollow" class="external-link" href="https://www.uni-marburg.de/en/studying/degree-programs/humanities/m-speechscience-phonetics" target="_blank">Sprechwissenschaft und Phonetik/ Speech Science and Phonetics</a>，<a data-tooltip-position="top" aria-label="https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/speech-science.html" rel="noopener nofollow" class="external-link" href="https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/speech-science.html" target="_blank">Speech Science - The University of Auckland</a> 以及 <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Speech_science" rel="noopener nofollow" class="external-link" href="https://en.wikipedia.org/wiki/Speech_science" target="_blank">Speech science - Wikipedia</a>。德语中有 <a data-tooltip-position="top" aria-label="https://de.m.wikipedia.org/wiki/Sprechwissenschaft" rel="noopener nofollow" class="external-link" href="https://de.m.wikipedia.org/wiki/Sprechwissenschaft" target="_blank">Sprechwissenschaft</a> 和 <a data-tooltip-position="top" aria-label="https://de.m.wikipedia.org/wiki/Sprachwissenschaft" rel="noopener nofollow" class="external-link" href="https://de.m.wikipedia.org/wiki/Sprachwissenschaft" target="_blank">Sprachwissenschaft (Linguistik)</a> 之分，待考。另外，我们注意到 speech/parole 在索绪尔用法中的“言语”含义。
+
+
+<br>
+优先事项不同，分道扬镳
+
+<br>
+近来合成的进展消除了语音科学家旧的障碍
+
+<br>
+两个领域的兴趣正在趋同
+
+<br>
+技术人员和科研人员共同的机会
+
+<br><br><br>
+<br>
+语音范畴化感知（Categorical speech perception）：合成声音连续统（synthetic sound continua）(Lisker and Abramson, 1970)
+
+<br>
+语音感知的肌动理论（Motor theory）(Liberman and Mattingly, 1985)、<a data-tooltip-position="top" aria-label="https://www.oxfordreference.com/display/10.1093/oi/authority.20110803095347862" rel="noopener nofollow" class="external-link" href="https://www.oxfordreference.com/display/10.1093/oi/authority.20110803095347862" target="_blank">声学线索（acoustic cue）</a>分析
+
+<br>
+用合成来分析：用以测试病理模型的建模框架 (Xu and Prom-On, 2014; Cernak et al., 2017)
+
+<br><br>
+<br>
+在数据稀疏、共振峰合成时代，语音科学对语音处理和工程大有裨益 (King, 2015)
+
+<br>
+Phones and phone sets
+
+<br>
+基于感知的建模，如 mel scale (Stevens et al., 1937)
+
+<br>
+源自心理语言学的复杂的语音合成评价方法 (Winters and Pisoni, 2004; Govender and King, 2018)
+
+<br><br>
+<br>
+合成和分析携手并进
+
+<br>
+为了理解数据和结果（不只是描述）
+
+<br>
+为了严谨的评估和分析途径
+
+<br><br>
+<br>
+生成刺激（Stimulus creation）：单独评价听者对特定声学线索的敏感度
+
+<br>
+操纵诸如共振峰过渡等因素，同时排除多余和残留的发音部位线索
+
+<br>
+控制单一线索的变化，限制混淆因素（confounds）
+
+<br>
+PSOLA, MBROLA, STRAIGHT 以创建、操纵语音 (Moulines and Charpentier, 1990; Dutoit et al., 1996; Kawahara, 2006)
+
+<br>
+语音失真（distortion）和 delexicalisation；noise-vocoding (White et al., 2015; Kolly and Dellwo, 2014)
+
+
+
+<br><br>
+<br>
+较新的语音合成无法提供语音学研究所需的精确控制
+
+<br>
+社区之间的重叠很少，意味着少有语音学家具备技术知识，以将合成的发展适用于其需求
+
+<br>
+自然语音和经典合成语音之间的感知差异，对研究结果的普遍性提出了质疑
+
+<br><br>
+<br>使用神经声码器（neural vocoders），如 WaveNet (van den Oord et al., 2016)，生成高度自然的语音信号
+<br>通过端到端（end-to-end）方法，如 Tacotron (Wang et al., 2017)，极大地改善了 TTS （在英语中）的韵律
+<br>在 MOS 中，TTS 的自然度接近录制的语音 (Shen et al., 2018)
+<br><br>根据 Winters 和 Pisoni（2004）的综述，一系列研究表明，经典的共振峰合成：<br>
+<br>
+比录制的语音可懂度低
+
+<br>
+过度占用注意力和认知机制，导致处理时间变慢 (Duffy and Pisoni, 1992)
+此外，自然度评分也很低
+
+<br><br>
+<br>
+技术人员应当追求现代语音合成范式的精准输出控制
+
+<br>
+科研人员应关注并为这些发展做出贡献
+
+<br>
+感知不足的问题已基本得到解决
+
+<br><br><img alt="Past and Future.png" src="phonetics\synthesis\img\then_and_now.png"><br><br>
+<br>用于语音学的可控神经声码器：将 MFCC 控制界面 (Juvela et al., 2018) 替换为更具语音学意义的语音参数
+
+<br>这些语音参数也可以从文本中预测，例如使用Tacotron
+
+
+<br>控制高层语音特征，例如显著性（prominence）(Malisz et al., 2017)
+<br><br>
+<br>改进且可控的合成，不仅为既定的研究方向提供了更好的刺激，还开启了新的领域，例如：
+
+<br>“按需”生成会话现象（conversational phenomena）(Székely et al., 2019)
+<br>生成难以从人类说话者中引出（elicit）的可选或非故意现象（例如，会话中的咔哒声）
+<br>“人工语音”与现实说话者的喋喋不休（babble），例如来自 unconditional WaveNet
+
+
+<br><br>
+<br>针对当今功能强大的语音合成器的新型稳健且有意义的评估方法
+<br>结果：重燃语音科学和技术之间富有成效的对话
+<br><br>
+<br>我们以前知道，经典的语音合成：
+
+<br>自然度评分低于录制的语音
+<br>可懂度低于录制的语音
+<br>认知处理时间比录制的语音慢
+
+
+<br>这些问题在多大程度上仍然存在？
+<br>实证研究：比较自然语音、经典合成和现代深度学习合成在以下方面的表现：
+
+<br>主观听众评分
+<br>可懂度
+<br>处理速度
+
+
+<br>使用开放代码和数据库以及适度的计算资源进行研究<br><br>
+<br>
+能精确控制的现代语音合成，对科研人员和技术人员都很有吸引力
+
+<br>这可以使这两个领域重新接触
+
+
+<br>
+现代合成语音在很大程度上克服了语音科学常用系统的感知不足
+
+<br>
+操纵语音的情况需要进一步研究
+
+<br>
+神经声码器、更多数据或更好的适应性，应该会进一步提高技术能力
+
+
+
+<br>
+让我们共同努力实现这一目标！
+
+<br><br><img alt="A Unifying View.png" src="phonetics\synthesis\img\unifying_view.png">]]></description><link>phonetics\synthesis\phonetics-and-synthesis.html</link><guid isPermaLink="false">Phonetics/Synthesis/Phonetics and Synthesis.md</guid><pubDate>Tue, 22 Oct 2024 11:24:49 GMT</pubDate><enclosure url="phonetics\synthesis\img\then_and_now.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;phonetics\synthesis\img\then_and_now.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data-Efficient TTS]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\advanced-topics-in-tts\data-efficient-tts\data-efficient-tts.html</link><guid isPermaLink="false">TTS/NeuralTTS/Advanced Topics in TTS/Data-Efficient TTS/Data-Efficient TTS.md</guid><pubDate>Wed, 23 Oct 2024 01:01:30 GMT</pubDate></item><item><title><![CDATA[Categorization of Variation Information in Speech]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\advanced-topics-in-tts\expressive-and-controllable-tts\categorization-of-variation-information-in-speech.html</link><guid isPermaLink="false">TTS/NeuralTTS/Advanced Topics in TTS/Expressive and Controllable TTS/Categorization of Variation Information in Speech.md</guid><pubDate>Wed, 30 Oct 2024 00:42:04 GMT</pubDate></item><item><title><![CDATA[Expressive and Controllable TTS]]></title><description><![CDATA[ 
+ <br>Expressive and Controllable TTS
+
+<br><a data-href="Categorization of Variation Information in Speech" href="tts\neuraltts\advanced-topics-in-tts\expressive-and-controllable-tts\categorization-of-variation-information-in-speech.html" class="internal-link" target="_self" rel="noopener nofollow">Categorization of Variation Information in Speech</a>
+<br><a data-href="Modeling Variation Information for Expressive Synthesis" href="tts\neuraltts\advanced-topics-in-tts\expressive-and-controllable-tts\modeling-variation-information-for-expressive-synthesis.html" class="internal-link" target="_self" rel="noopener nofollow">Modeling Variation Information for Expressive Synthesis</a>
+<br><a data-href="Modeling Variation Information for Controllable Synthesis" href="tts\neuraltts\advanced-topics-in-tts\expressive-and-controllable-tts\modeling-variation-information-for-controllable-synthesis.html" class="internal-link" target="_self" rel="noopener nofollow">Modeling Variation Information for Controllable Synthesis</a> 
+
+]]></description><link>tts\neuraltts\advanced-topics-in-tts\expressive-and-controllable-tts\expressive-and-controllable-tts.html</link><guid isPermaLink="false">TTS/NeuralTTS/Advanced Topics in TTS/Expressive and Controllable TTS/Expressive and Controllable TTS.md</guid><pubDate>Wed, 30 Oct 2024 00:42:51 GMT</pubDate></item><item><title><![CDATA[Modeling Variation Information for Controllable Synthesis]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\advanced-topics-in-tts\expressive-and-controllable-tts\modeling-variation-information-for-controllable-synthesis.html</link><guid isPermaLink="false">TTS/NeuralTTS/Advanced Topics in TTS/Expressive and Controllable TTS/Modeling Variation Information for Controllable Synthesis.md</guid><pubDate>Wed, 30 Oct 2024 00:42:51 GMT</pubDate></item><item><title><![CDATA[Modeling Variation Information for Expressive Synthesis]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\advanced-topics-in-tts\expressive-and-controllable-tts\modeling-variation-information-for-expressive-synthesis.html</link><guid isPermaLink="false">TTS/NeuralTTS/Advanced Topics in TTS/Expressive and Controllable TTS/Modeling Variation Information for Expressive Synthesis.md</guid><pubDate>Wed, 30 Oct 2024 00:42:21 GMT</pubDate></item><item><title><![CDATA[Model-Efficient TTS]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\advanced-topics-in-tts\model-efficient-tts\model-efficient-tts.html</link><guid isPermaLink="false">TTS/NeuralTTS/Advanced Topics in TTS/Model-Efficient TTS/Model-Efficient TTS.md</guid><pubDate>Wed, 23 Oct 2024 01:01:20 GMT</pubDate></item><item><title><![CDATA[Robust TTS]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\advanced-topics-in-tts\robust-tts\robust-tts.html</link><guid isPermaLink="false">TTS/NeuralTTS/Advanced Topics in TTS/Robust TTS/Robust TTS.md</guid><pubDate>Wed, 23 Oct 2024 01:01:08 GMT</pubDate></item><item><title><![CDATA[Acoustic Models]]></title><description><![CDATA[ 
+ <br>Acoustic Models
+
+<br><a data-tooltip-position="top" aria-label="RNN-Based Acoustic Models" data-href="RNN-Based Acoustic Models" href="tts\neuraltts\key-components-in-tts\acoustic-models\rnn-based-acoustic-models.html" class="internal-link" target="_self" rel="noopener nofollow">RNN-Based</a>
+<br><a data-tooltip-position="top" aria-label="CNN-Based Acoustic Models" data-href="CNN-Based Acoustic Models" href="tts\neuraltts\key-components-in-tts\acoustic-models\cnn-based-acoustic-models.html" class="internal-link" target="_self" rel="noopener nofollow">CNN-Based</a>
+<br><a data-tooltip-position="top" aria-label="Transformer-Based Acoustic Models" data-href="Transformer-Based Acoustic Models" href="tts\neuraltts\key-components-in-tts\acoustic-models\transformer-based-acoustic-models.html" class="internal-link" target="_self" rel="noopener nofollow">Transformer-Based</a>
+<br><a data-tooltip-position="top" aria-label="Advanced Generative Acoustic Models" data-href="Advanced Generative Acoustic Models" href="tts\neuraltts\key-components-in-tts\acoustic-models\advanced-generative-acoustic-models.html" class="internal-link" target="_self" rel="noopener nofollow">Advanced Generative Models</a>
+
+]]></description><link>tts\neuraltts\key-components-in-tts\acoustic-models\acoustic-models.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Acoustic Models/Acoustic Models.md</guid><pubDate>Wed, 30 Oct 2024 00:24:47 GMT</pubDate></item><item><title><![CDATA[Advanced Generative Acoustic Models]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\acoustic-models\advanced-generative-acoustic-models.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Acoustic Models/Advanced Generative Acoustic Models.md</guid><pubDate>Wed, 30 Oct 2024 00:18:40 GMT</pubDate></item><item><title><![CDATA[CNN-Based Acoustic Models]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\acoustic-models\cnn-based-acoustic-models.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Acoustic Models/CNN-Based Acoustic Models.md</guid><pubDate>Wed, 30 Oct 2024 00:17:46 GMT</pubDate></item><item><title><![CDATA[RNN-Based Acoustic Models]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\acoustic-models\rnn-based-acoustic-models.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Acoustic Models/RNN-Based Acoustic Models.md</guid><pubDate>Wed, 30 Oct 2024 00:17:46 GMT</pubDate></item><item><title><![CDATA[Transformer-Based Acoustic Models]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\acoustic-models\transformer-based-acoustic-models.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Acoustic Models/Transformer-Based Acoustic Models.md</guid><pubDate>Wed, 30 Oct 2024 00:18:21 GMT</pubDate></item><item><title><![CDATA[Fully End-to-End TTS]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\fully-end-to-end-tts\fully-end-to-end-tts.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Fully End-to-End TTS/Fully End-to-End TTS.md</guid><pubDate>Wed, 23 Oct 2024 00:37:46 GMT</pubDate></item><item><title><![CDATA[Grapheme-to-Phoneme Conversion]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\phonetic-analysis\grapheme-to-phoneme-conversion.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Phonetic Analysis/Grapheme-to-Phoneme Conversion.md</guid><pubDate>Wed, 30 Oct 2024 00:11:58 GMT</pubDate></item><item><title><![CDATA[Phonetic Analysis]]></title><description><![CDATA[ 
+ <br>Phonetic Analysis
+
+<br><a data-href="Polyphone Disambiguation" href="tts\neuraltts\key-components-in-tts\text-analyses\phonetic-analysis\polyphone-disambiguation.html" class="internal-link" target="_self" rel="noopener nofollow">Polyphone Disambiguation</a>
+<br><a data-href="Grapheme-to-Phoneme Conversion" href="tts\neuraltts\key-components-in-tts\text-analyses\phonetic-analysis\grapheme-to-phoneme-conversion.html" class="internal-link" target="_self" rel="noopener nofollow">Grapheme-to-Phoneme Conversion</a>
+
+]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\phonetic-analysis\phonetic-analysis.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Phonetic Analysis/Phonetic Analysis.md</guid><pubDate>Wed, 30 Oct 2024 00:13:20 GMT</pubDate></item><item><title><![CDATA[Polyphone Disambiguation]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\phonetic-analysis\polyphone-disambiguation.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Phonetic Analysis/Polyphone Disambiguation.md</guid><pubDate>Wed, 30 Oct 2024 00:11:46 GMT</pubDate></item><item><title><![CDATA[Pause, Stress, and Intonation]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\prosodic-analysis\pause,-stress,-and-intonation.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Prosodic Analysis/Pause, Stress, and Intonation.md</guid><pubDate>Wed, 30 Oct 2024 00:13:42 GMT</pubDate></item><item><title><![CDATA[Pitch, Duration, and Loudness]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\prosodic-analysis\pitch,-duration,-and-loudness.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Prosodic Analysis/Pitch, Duration, and Loudness.md</guid><pubDate>Wed, 30 Oct 2024 00:14:33 GMT</pubDate></item><item><title><![CDATA[Prosodic Analysis]]></title><description><![CDATA[ 
+ <br>Prosodic Analysis
+
+<br><a data-href="Pause, Stress, and Intonation" href="tts\neuraltts\key-components-in-tts\text-analyses\prosodic-analysis\pause,-stress,-and-intonation.html" class="internal-link" target="_self" rel="noopener nofollow">Pause, Stress, and Intonation</a>
+<br><a data-href="Pitch, Duration, and Loudness" href="tts\neuraltts\key-components-in-tts\text-analyses\prosodic-analysis\pitch,-duration,-and-loudness.html" class="internal-link" target="_self" rel="noopener nofollow">Pitch, Duration, and Loudness</a>
+
+]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\prosodic-analysis\prosodic-analysis.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Prosodic Analysis/Prosodic Analysis.md</guid><pubDate>Wed, 30 Oct 2024 00:16:02 GMT</pubDate></item><item><title><![CDATA[Homograph and Word Sense Disambiguation]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\text-processing\linguistic-analysis\homograph-and-word-sense-disambiguation.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Linguistic Analysis/Homograph and Word Sense Disambiguation.md</guid><pubDate>Wed, 30 Oct 2024 00:01:09 GMT</pubDate></item><item><title><![CDATA[Linguistic Analysis]]></title><description><![CDATA[ 
+ <br>Linguistic Analysis
+
+<br><a data-href="Sentence Breaking and Type Detection" href="tts\neuraltts\key-components-in-tts\text-analyses\text-processing\linguistic-analysis\sentence-breaking-and-type-detection.html" class="internal-link" target="_self" rel="noopener nofollow">Sentence Breaking and Type Detection</a>
+<br><a data-tooltip-position="top" aria-label="Word Phrase Segmentation" data-href="Word Phrase Segmentation" href="tts\neuraltts\key-components-in-tts\text-analyses\text-processing\linguistic-analysis\word-phrase-segmentation.html" class="internal-link" target="_self" rel="noopener nofollow">Word/Phrase Segmentation</a>
+<br><a data-href="Part-of-Speech Tagging" href="tts\neuraltts\key-components-in-tts\text-analyses\text-processing\linguistic-analysis\part-of-speech-tagging.html" class="internal-link" target="_self" rel="noopener nofollow">Part-of-Speech Tagging</a>
+<br><a data-href="Homograph and Word Sense Disambiguation" href="tts\neuraltts\key-components-in-tts\text-analyses\text-processing\linguistic-analysis\homograph-and-word-sense-disambiguation.html" class="internal-link" target="_self" rel="noopener nofollow">Homograph and Word Sense Disambiguation</a>
+
+<br>语言学分析通过句法和语义分析从句子中提取结构和语义信息。语言学分析在文本转语音（TTS）中有多种用途：<br>(1) 它可以提供额外的语法信息，以帮助确定单词在不同语义或抽象词形变化中的发音（例如，“read”在现在时中发音为/riːd/，在过去时中发音为/red/）；<br>
+(2) 它可以提供附加信息，以区分文本规范化后相同的句子；<br>
+(3) 它可以提供有用信息来确定影响时长和音高轮廓的韵律结构（例如，句子的句法类型，是否为是/否问句或wh问句，这些句子虽然都用问号“？”标记，但它们的时长和音高轮廓不同）。一些基本的句法和语义分析任务包括句子类型检测、词/短语/句子的分割、词性（POS）标注、词义消歧以及同形异义词的消歧。我们将在接下来的段落中介绍这些句法和语义分析任务。]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\text-processing\linguistic-analysis\linguistic-analysis.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Linguistic Analysis/Linguistic Analysis.md</guid><pubDate>Wed, 20 Nov 2024 07:32:12 GMT</pubDate></item><item><title><![CDATA[Part-of-Speech Tagging]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\text-processing\linguistic-analysis\part-of-speech-tagging.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Linguistic Analysis/Part-of-Speech Tagging.md</guid><pubDate>Wed, 30 Oct 2024 00:00:04 GMT</pubDate></item><item><title><![CDATA[Sentence Breaking and Type Detection]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\text-processing\linguistic-analysis\sentence-breaking-and-type-detection.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Linguistic Analysis/Sentence Breaking and Type Detection.md</guid><pubDate>Tue, 29 Oct 2024 23:57:33 GMT</pubDate></item><item><title><![CDATA[Word Phrase Segmentation]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\text-processing\linguistic-analysis\word-phrase-segmentation.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Linguistic Analysis/Word Phrase Segmentation.md</guid><pubDate>Tue, 29 Oct 2024 23:57:53 GMT</pubDate></item><item><title><![CDATA[Document Structure Detection]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\text-processing\document-structure-detection.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Document Structure Detection.md</guid><pubDate>Tue, 29 Oct 2024 23:52:52 GMT</pubDate></item><item><title><![CDATA[Text Normalization]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\text-processing\text-normalization.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Text Normalization.md</guid><pubDate>Tue, 29 Oct 2024 23:55:49 GMT</pubDate></item><item><title><![CDATA[Text Processing]]></title><description><![CDATA[ 
+ <br>Text Processing
+
+<br><a data-href="Document Structure Detection" href="tts\neuraltts\key-components-in-tts\text-analyses\text-processing\document-structure-detection.html" class="internal-link" target="_self" rel="noopener nofollow">Document Structure Detection</a>
+<br><a data-href="Text Normalization" href="tts\neuraltts\key-components-in-tts\text-analyses\text-processing\text-normalization.html" class="internal-link" target="_self" rel="noopener nofollow">Text Normalization</a>
+<br><a data-href="Linguistic Analysis" href="tts\neuraltts\key-components-in-tts\text-analyses\text-processing\linguistic-analysis\linguistic-analysis.html" class="internal-link" target="_self" rel="noopener nofollow">Linguistic Analysis</a>
+
+]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\text-processing\text-processing.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Text Processing.md</guid><pubDate>Wed, 30 Oct 2024 00:22:04 GMT</pubDate></item><item><title><![CDATA[Text Analyses]]></title><description><![CDATA[ 
+ <br>Text Analyses
+
+<br><a data-href="Text Processing" href="tts\neuraltts\key-components-in-tts\text-analyses\text-processing\text-processing.html" class="internal-link" target="_self" rel="noopener nofollow">Text Processing</a>
+<br><a data-href="Phonetic Analysis" href="tts\neuraltts\key-components-in-tts\text-analyses\phonetic-analysis\phonetic-analysis.html" class="internal-link" target="_self" rel="noopener nofollow">Phonetic Analysis</a>
+<br><a data-href="Prosodic Analysis" href="tts\neuraltts\key-components-in-tts\text-analyses\prosodic-analysis\prosodic-analysis.html" class="internal-link" target="_self" rel="noopener nofollow">Prosodic Analysis</a> 
+
+<br>]]></description><link>tts\neuraltts\key-components-in-tts\text-analyses\text-analyses.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Analyses.md</guid><pubDate>Wed, 30 Oct 2024 00:22:26 GMT</pubDate></item><item><title><![CDATA[Autoregressive Vocoders]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\vocoders\autoregressive-vocoders.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Vocoders/Autoregressive Vocoders.md</guid><pubDate>Wed, 30 Oct 2024 00:27:52 GMT</pubDate></item><item><title><![CDATA[Diffusion-Based Vocoders]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\vocoders\diffusion-based-vocoders.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Vocoders/Diffusion-Based Vocoders.md</guid><pubDate>Wed, 30 Oct 2024 00:28:13 GMT</pubDate></item><item><title><![CDATA[Flow-Based Vocoders]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\vocoders\flow-based-vocoders.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Vocoders/Flow-Based Vocoders.md</guid><pubDate>Wed, 30 Oct 2024 00:28:02 GMT</pubDate></item><item><title><![CDATA[GAN-Based Vocoders]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\vocoders\gan-based-vocoders.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Vocoders/GAN-Based Vocoders.md</guid><pubDate>Wed, 30 Oct 2024 00:28:07 GMT</pubDate></item><item><title><![CDATA[Other Vocoders]]></title><description><![CDATA[ 
+ ]]></description><link>tts\neuraltts\key-components-in-tts\vocoders\other-vocoders.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Vocoders/Other Vocoders.md</guid><pubDate>Wed, 30 Oct 2024 00:28:19 GMT</pubDate></item><item><title><![CDATA[Vocoders]]></title><description><![CDATA[ 
+ <br>Vocoders
+
+<br><a data-tooltip-position="top" aria-label="Autoregressive Vocoders" data-href="Autoregressive Vocoders" href="tts\neuraltts\key-components-in-tts\vocoders\autoregressive-vocoders.html" class="internal-link" target="_self" rel="noopener nofollow">Autogressive</a>
+<br><a data-tooltip-position="top" aria-label="Flow-Based Vocoders" data-href="Flow-Based Vocoders" href="tts\neuraltts\key-components-in-tts\vocoders\flow-based-vocoders.html" class="internal-link" target="_self" rel="noopener nofollow">Flow-Based</a>
+<br><a data-tooltip-position="top" aria-label="GAN-Based Vocoders" data-href="GAN-Based Vocoders" href="tts\neuraltts\key-components-in-tts\vocoders\gan-based-vocoders.html" class="internal-link" target="_self" rel="noopener nofollow">GAN-Based</a>
+<br><a data-tooltip-position="top" aria-label="Diffusion-Based Vocoders" data-href="Diffusion-Based Vocoders" href="tts\neuraltts\key-components-in-tts\vocoders\diffusion-based-vocoders.html" class="internal-link" target="_self" rel="noopener nofollow">Diffusion-Based</a>
+<br><a data-tooltip-position="top" aria-label="Other Vocoders" data-href="Other Vocoders" href="tts\neuraltts\key-components-in-tts\vocoders\other-vocoders.html" class="internal-link" target="_self" rel="noopener nofollow">Others</a>
+
+<br>声码器（Vocoder），又称语音信号分析合成系统，负责对声音进行分析和合成，主要用于合成人类的语音。声码器主要由以下功能：<br>
+<br>分析 Analysis
+<br>操纵 Manipulation
+<br>合成 Synthesis
+<br>分析过程主要是从一段原始声音波形中提取声学特征，比如线性谱、MFCC；操纵过程是指对提取的原始声学特征进行压缩等降维处理，使其表征能力进一步提升；合成过程是指将此声学特征恢复至原始波形。人类发声机理可以用经典的源-滤波器模型建模，也就是输入的激励部分通过线性时不变进行操作，输出的声道谐振部分作为合成语音。输入部分被称为激励部分（Source Excitation Part），激励部分对应肺部气流与声带共同作用形成的激励，输出结果被称为声道谐振部分（Vocal Tract Resonance Part），对应人类发音结构，而声道谐振部分对应于声道的调音部分，对声音进行调制。<br>声码器的发展可以分为两个阶段，包括用于统计参数语音合成（Statistical Parameteric Speech Synthesis，SPSS）基于信号处理的声码器，和基于神经网络的声码器。<br>常用基于信号处理的声码器包括Griffin-Lim和WORLD。早期神经声码器包括WaveNet、WaveRNN等，近年来神经声码器发展迅速，涌现出包括MelGAN、HiFiGAN、LPCNet、NHV等优秀的工作。]]></description><link>tts\neuraltts\key-components-in-tts\vocoders\vocoders.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Vocoders/Vocoders.md</guid><pubDate>Wed, 06 Nov 2024 07:25:34 GMT</pubDate></item><item><title><![CDATA[Neural Text-to-Speech]]></title><description><![CDATA[ 
+ <br><br><img alt="Knowledge.png" src="tts\neuraltts\img\knowledge.png"><br>问题：<br>
+<br>更像是一个论文的Overview/Survey，综述性质的（很多主题稍微一点，后跟一串文献，没读过几篇，然后我现在列出来的效果并没有体现出知识点间的关联，而是单纯的树状图）
+<br>牵涉深度学习 很多时候似乎只能讲授“这帮子人希望达成一个怎样的（粗略、总体的）目标”
+<br>有很多主题更像是在传授实践中的“技艺”，或许是文献看的太少，理解不深
+<br>发展太快，根据一些talk以及作者在书中留下的蛛丝马迹，书中没怎么牵扯到的 codec 在这两年已经成为业界的 SOTA，加之对 Spoken/Speech/Audio LM 的研究，现如今 TTS 更像是作为语言建模的一个子任务。。。
+<br><br>
+<br>Neural Text-to-Speech Synthesis 2022 上半年 谭旭 <a rel="noopener nofollow" class="external-link" href="https://link.springer.com/book/10.1007/978-981-99-0827-1" target="_blank">https://link.springer.com/book/10.1007/978-981-99-0827-1</a>
+
+<br>Recent Advances in Neural Speech Synthesis 2022年5月23日
+<br>Neural Speech Synthesis 2022年9月18日
+<br>Lessons From the Autoregressive/Non- autoregressive Battle in Speech Synthesis 2024年1月24日
+
+
+<br>Text-to-Speech 语音合成：从入门到放弃 2023年3月20日 <a rel="noopener nofollow" class="external-link" href="https://github.com/cnlinxi/book-text-to-speech/blob/13b04cdc25c9d6b90c093ed85ea6705ab8ac544b/text_to_speech.pdf" target="_blank">https://github.com/cnlinxi/book-text-to-speech/blob/13b04cdc25c9d6b90c093ed85ea6705ab8ac544b/text_to_speech.pdf</a>
+<br>What is AI speech generation currently capable of ? ACM Conversational User Interfaces 2024 (CUI2024), Simon King <a rel="noopener nofollow" class="external-link" href="https://speech.zone/media/images/Simon_King_CUI2024.pdf" target="_blank">https://speech.zone/media/images/Simon_King_CUI2024.pdf</a>
+
+<br>In-scope:
+
+<br>Current Methods
+<br>Capabilities, with examples
+<br>The SOTA
+<br>Opportunities for CUI
+
+
+<br>Out-scope:
+
+<br>A complete literature survey
+<br>Evaluation
+<br>Ethical considerations
+<br>Scarlett Johansson vs. OpenAI
+
+
+
+
+<br>Sequence-to-sequence models <a rel="noopener nofollow" class="external-link" href="https://speech.zone/media/images/Simon_King_Speech_Synthesis_2023-24_class_slides_module_09.pdf" target="_blank">https://speech.zone/media/images/Simon_King_Speech_Synthesis_2023-24_class_slides_module_09.pdf</a>
+<br>What is “end-to-end” text-to-speech synthesis ? 2019 Simon King <a rel="noopener nofollow" class="external-link" href="https://speech.zone/media/images/Simon_King_Lancaster_2019_compressed_for_publication.pdf" target="_blank">https://speech.zone/media/images/Simon_King_Lancaster_2019_compressed_for_publication.pdf</a>
+<br>Speech Foundation Models 語音基石模型 2023/05/12 張凱爲 <a rel="noopener nofollow" class="external-link" href="https://kwchang.org/files/Speech%20_Foundation_Models.pdf" target="_blank">https://kwchang.org/files/Speech%20_Foundation_Models.pdf</a>
+<br>Parameter-Efficient Learning for Speech Processing 2023年6月4日 Kai-Wei Chang <a rel="noopener nofollow" class="external-link" href="https://kwchang.org/files/ICASSP23.pdf" target="_blank">https://kwchang.org/files/ICASSP23.pdf</a>
+<br>Speech Language Models: Prompting and Parameter Efficient Learning, 2024年4月15日, Kai-Wei Chang <a rel="noopener nofollow" class="external-link" href="https://kwchang.org/files/ICASSP24.pdf" target="_blank">https://kwchang.org/files/ICASSP24.pdf</a>
+<br>Challenges in Developing Spoken Language Models, Hung-yi Lee <a rel="noopener nofollow" class="external-link" href="https://drive.google.com/file/d/1gPjnjGKxeCF72gisPVuQlDvogXQCtNk4/view" target="_blank">https://drive.google.com/file/d/1gPjnjGKxeCF72gisPVuQlDvogXQCtNk4/view</a>
+<br>Speech Synthesis: Text-To-Speech Conversion and Artificial Voices, 2020, Jürgen Trouvain and Bernd Möbius, Handbook of the Changing World Language Map <a rel="noopener nofollow" class="external-link" href="https://link.springer.com/referencework/10.1007/978-3-030-02438-3" target="_blank">https://link.springer.com/referencework/10.1007/978-3-030-02438-3</a>
+
+<br>Out-scope:
+
+<br>A complete literature surveys
+
+
+
+
+<br>Text-to-Speech Synthesis, 志賀 芳則 等, 2020, Speech-to-Speech Translation <a rel="noopener nofollow" class="external-link" href="https://link.springer.com/book/10.1007/978-981-15-0595-9" target="_blank">https://link.springer.com/book/10.1007/978-981-15-0595-9</a>
+
+<br>Some novel approaches that do not consider the aforementioned separation of the TTS process have been proposed very recently, which allow the acoustic features (or speech waveform itself) to be produced directly from text, by fully exploiting the latest deep learning techniques. Such “end-to-end” approaches are still challenging and a detailed description of these is beyond the scope of this book.
+
+
+<br>Towards audio language modeling - an overview 2024年2月20日 <a rel="noopener nofollow" class="external-link" href="https://arxiv.org/abs/2402.13236" target="_blank">https://arxiv.org/abs/2402.13236</a>
+<br>武执政 <a rel="noopener nofollow" class="external-link" href="https://drwuz.com/CSC3160/" target="_blank">https://drwuz.com/CSC3160/</a> <a rel="noopener nofollow" class="external-link" href="https://slpcourse.github.io/" target="_blank">https://slpcourse.github.io/</a>
+<br><br>语音合成
+文语转换（Text-to-speech synthesis，简称 TTS），或语音合成（speech synthesis），旨在从文本生成可懂、自然（范式转移了！还需要 human-like）的语音。广义上的语音合成涵盖了从任何信息源生成语音的任务，还包括变声器、歌唱合成等。语音合成在使机器能够讲话方面起关键作用，并且是人工智能和自然语言/语音处理中的一项重要任务。开发语音合成系统需要具备语言和人类语音产生的知识，并涉及多个学科，包括语言学、声学、数字信号处理以及机器学习。<br>
+Neural Text-to-Speech Synthesis, 谭旭, P1
+<br><img alt="TTS_System.png" src="tts\neuraltts\img\tts_system.png"><br><br><br><img alt="History.png" src="tts\neuraltts\img\history.png"><br><img alt="历史.png" src="tts\neuraltts\img\历史.png"><br><br>参考：<br>根据语音合成研究的历史，如图所示，语音合成研究方法可以分为：调音合成（机械式语音合成器、电子式语音合成器）、共振峰参数合成器、基于波形拼接的语音合成、统计参数语音合成、以及神经网络语音合成。<br><br>语音信号的产生分为两个阶段，信息编码和生理控制。首先在大脑中出现某种想要表达的想法，然后由大脑将其编码为具体的语言文字序列，及语音中可能存在的强调、重读等韵律信息。经过语言的组织，大脑通过控制发音器官肌肉的运动，产生出相应的语音信号。其中第一阶段主要涉及人脑语言处理方面，第二阶段涉及语音信号产生的生理机制。<br>（之后换张更好的图）<br>
+<img alt="Human_Speech_Arch.png" src="tts\neuraltts\img\human_speech_arch.png"><br>从滤波的角度，人体涉及发音的器官可以分为两部分：激励系统和声道系统，如图所示。激励系统中，储存于肺部的空气源，经过胸腔的压缩排出，经过气管进入声带，根据发音单元决定是否产生振动，形成准周期的脉冲空气激励流或噪声空气激励流。这些空气流作为激励，进入声道系统，被频率整形，形成不同的声音。声道系统包括咽喉、口腔（舌、唇、颌和口）组成，可能还包括鼻道。不同周期的脉冲空气流或者噪声空气流，以及不同声道器官的位置决定了产生的声音。因此，语音合成中通常将语音的建模分解为激励建模和声道建模。<br>语音合成的早期工作主要是通过源-滤波器模型对语音产生的过程进行模拟。最开始的机械式语音合成器，使用风箱模拟人的肺部运动，产生激励空气流，采用振动弹簧片和皮革模拟声道系统，通过手动协调各部分运动，能够合成出五个长元音。机械式的语音合成器难以实用，随着时代的发展，贝尔实验室提出了电子式的语音合成器。不再模拟具体的生理器官，电子式语音合成器通过脉冲发射器和噪声发射器来分别产生模拟浊音和清音的激励系统，通过操作人员手动控制多个带通滤波器来模拟声道系统，最后通过放大器输出语音信号。<br><br>由于电子式语音合成器使用有限个带通滤波器模拟声道系统，对自然语音的频谱特征的刻画精度有限。为了更好地刻画声道系统，共振峰参数合成器被提出。共振峰参数合成器将声道系统看成一个谐振腔，利用共振峰频率和宽度等声道的谐振特性，构建声道滤波器，以更好地刻画语音的声道特性。然而由于共振峰参数合成器结构复杂，需要大量人工分析调整参数，难以实用。<br><br>早期的语音合成方法由于模型简单，系统复杂等原因，难以在实际场景应用。随着计算机技术的发展，基于波形拼接的语音合成被提出。基于波形拼接的语音合成的基本原理是首先构建一个音库，在合成阶段，通过对合成文本的分析，按照一定的准则，从音库中挑选出与待合成语音相似的声学单元，对这些声学单元进行少量调整，拼接得到合成的语音。早期的波形拼接系统受限于音库大小、挑选算法、拼接调整的限制，合成语音质量较低。1990年，基于同步叠加的时域波形修改算法被提出，解决了声学单元拼接处的局部不连续问题。更进一步，基于大语料库的波形拼接语音合成方法被提出，采用更精细的挑选策略，将语音音库极大地拓展，大幅提升了合成语音的自然度。由于直接使用发音人的原始语音，基于波形拼接的语音合成方法合成语音的音质接近自然语音，被广泛应用。但其缺点也较为明显，包括音库制作时间长、需要保存整个音库、拓展性差、合成语音自然度受音库和挑选算法影响，顽健性（Robustness）不高等。<br><br>随着统计建模理论的完善，以及对语音信号理解的深入，基于统计参数的语音合成方法被提出。其基本原理是使用统计模型，对语音的参数化表征进行建模。在合成阶段，给定待合成文本，使用统计模型预测出对应的声学参数，经过声码器合成语音波形。统计参数语音合成方法是目前的主流语音合成方法之一。统计参数音合成方法的优点很多，包括只需要较少的人工干预，能够快速地自动构建系统，同时具有较强的灵活性，能够适应不同发音人，不同发音风格，多语种的语音合成，具有较强的鲁棒性等。由于语音参数化表示以及统计建模的平均效应，统计参数语音合成方法生成的语音自然度相比自然语音通常会有一定的差距。基于隐马尔科夫的统计参数语音合成方法是发展最为完善的一种。基于HMM的统计参数语音合成系统能够同时对语音的基频、频谱和时长进行建模，生成出连续流畅且可懂度高的语音，被广泛应用，但其合成音质较差。<br><br><br>随着深度学习的发展，提出了基于神经网络的 TTS （neural network-based TTS），简称神经 TTS，采用（深度）神经网络作为语音合成的模型骨干。一些早期的神经模型用于 SPSS 以替代 HMM 进行声学建模。后来提出了 WaveNet，直接从语言特征生成波形，可以视为第一个现代神经 TTS 模型。其他模型如 DeepVoice 1/2 仍然 SPSS 中的三个组件，但用相应的基于神经网络的模型进行了升级。神经网络在 SPSS 中只用于声学模型，而在神经 TTS 中用于声学模型和声码器。<br>此外，提出了一些端到端模型（如 Char2Wav，Tacotron 1/2，Deep Voice 3 和 FastSpeech 1/2）用以简化文本分析模块，直接以字符/音素序列作为输入，并用 mel 语谱简化声学特征。后来，开发了完全端到端的 TTS 系统，直接从文本生成波形，例如 ClariNet，FastSpeech 2s，EATS 和 NaturalSpeech。<br>TTS 术语“端到端”（end-to-end）意义含混。早期研究中，“端到端”指的是文本到语谱（text-to-spectrogram）的模型是端到端的，但仍然使用一个分开的波形合成器（声码器）。它也泛指未使用复杂的语言或声学特征的神经 TTS 模型。比如，WaveNet 没用到声学特征，而是直接根据语言特征生成波形。Tacotron 没用到语言特征，而是直接由字符或音位生成语谱。然而，严格的端到端模型指直接从文本生成波形。因此，我们用“端到端”、“更端到端”（more end-to-end），“完全端到端”（fully end-to-end）来区分 TTS 模型端到端的程度。<br>神经 TTS 摒弃了以往 TTS 系统所需的大部分先验知识，纯粹通过数据进行端到端学习。<br>由于其强大的学习数据表示（表示学习 representation learning）和建模数据分布（生成式模型 generative modeling）能力，神经 TTS 能够实现与人类录音一样自然的 high voice quality。<br>与以前基于拼接合成和统计参数合成的 TTS 系统相比，基于神经网络的语音合成的优点包括在可懂度（intelligibility）和自然度（naturalness）方面的 high voice quality，并且对人类预处理和特征开发的要求更少。<br><br>通常包括三个组件：一个文本分析（text analysis）模块、一个声学模型（acoustic model）、和一个声码器（vocoder）。<br><br>
+<br>
+Text analysis: text → linguistic features
+
+<br>
+Acoustic model: linguistic features → acoustic features
+
+<br>
+Vocoder: acoustic features → speech
+
+<br>
+Linguistic features: phoneme, prosody features
+
+<br>
+Acoustic features: mel-spectrogram, discrete token, latent vector
+
+<br>尽管一些端到端模型没有明确使用文本分析（如 Tacotron 2）、声学模型（如 WaveNet）或声码器（如 Tacotron），并且一些系统仅使用单个端到端模型（如 FastSpeech 2s 和 NaturalSpeech），但这些组件的使用仍然流行于当前 （2022年上半年，现在未必） 的 TTS 研究和产品中。<br><img alt="./img/Typical_Pipeline.png" src="tts\neuraltts\img\typical_pipeline.png"><br>请注意，一些近期的 TTS 系统学习了诸如连续向量（continuous vectors）或离散词例（discrete tokens）等中间表示，而不是传统的 mel 语谱（mel-spectrogram），利用神经音频编解码器（neural audio codec）（2024年：NAR dominates Vocoder (Codec)；LLMs revive the AR/NAR battle） 在文本和语音之间建立映射。这些系统利用声学模型或语言模型（language model）生成这些连续向量或离散词例，并通过编解码器的解码器根据这些中间表示生成波形。<br>谭旭：<br><br><img alt="Pipeline.jpg" src="tts\neuraltts\img\pipeline.jpg"><br><img alt="Paths.jpg" src="tts\neuraltts\img\paths.jpg"><br>武执政：<br>两段<br><br>三段<br><br>Simon King:<br>2019<br><br>2024<br><br>Daniel Jurafsky：<br><br><br><img alt="Frontend_Classic" src="tts\neuraltts\img\frontend_classic.png"><br>文本前端的作用是从文本中提取发音和语言学信息，其任务至少包括以下四点。<br>Text Analyses
+
+<br>文本正则化
+
+<br>在语音合成中，用于合成的文本存在特殊符号、阿拉伯数字等，需要把符号转换为文本。如“1.5元”需要转换成“一点五元”，方便后续的语言学分析。
+
+
+<br>韵律预测
+
+<br>该模块的主要作用是添加句子中韵律停顿或起伏。如“在抗击新型冠状病毒的战役中，党和人民群众经受了一次次的考验”，如果停顿信息不准确就会出现：“在/抗击/新型冠状病毒/的/战役中，党/和/人民群众/经受了/一次/次/的/考验”。“一次次”的地方存在一个错误停顿，这将会导致合成语音不自然，如果严重些甚至会影响语义信息的传达。
+
+
+<br>字音转换
+
+<br>将文字转化为发音信息。比如“中国”是汉字表示，需要先将其转化为拼音“zhong1 guo2”，以帮助后续的声学模型更加准确地获知每个汉字的发音情况。
+
+
+<br>多音字
+
+<br>许多语言中都有多音字的现象，比如“模型”和“模样”，这里“模”字的发音就存在差异。另外，汉字中又存在变调现象，如“一个”和“看一看”中的“一”发音音调不同。所以在输入一个句子的时候，文本前端就需要准确判断出文字中的特殊发音情况，否则可能会导致后续的声学模型合成错误的声学特征，进而生成不正确的语音。
+
+
+
+<br><br>声学特征生成网络根据文本前端的发音信息，产生声学特征，如梅尔频谱或线性谱。近年来，基于深度学习的生成网络甚至可以去除文本前端，直接由英文等文本生成对应的频谱。但是一般来说，因为中文字形和读音关联寥寥，因此中文语音合成系统大多无法抛弃文本前端，换言之，直接将中文文本输入到声学特征生成网络中是不可行的（？考虑到即便是语言建模也需要先做分词，这么说未尝不可）。基于深度学习的声学特征生成网络发展迅速，比较有代表性的模型有Tacotron系列，FastSpeech系列等。近年来，也涌现出类似于VITS的语音合成模型，将声学特征生成网络和声码器融合在一起，直接将文本映射为语音波形。<br><br>通过声学特征产生语音波形的系统被称作声码器，声码器是决定语音质量的一个重要因素。一般而言，声码器可以分为以下4类：纯信号处理，如Griffin-Lim、STRAIGHT和WORLD；自回归深度网络模型，如WaveNet和WaveRNN；非自回归模型，如Parallel WaveNet、ClariNet和WaveGlow；基于生成对抗网络（Generative Adversarial Network，GAN）的模型，如MelGAN、Parallel WaveGAN和HiFiGAN。<br>
+<br>Chap. 7 <a data-tooltip-position="top" aria-label="Fully End-to-End TTS" data-href="Fully End-to-End TTS" href="tts\neuraltts\key-components-in-tts\fully-end-to-end-tts\fully-end-to-end-tts.html" class="internal-link" target="_self" rel="noopener nofollow">完全端到端 TTS（Fully End-to-End TTS）</a>
+<br><br><br>（1）为了改进自然度（naturalness）和表现力（expressiveness），我们引入如何建模、控制和传递风格/韵律（style/prosody）以生成有表现力的（expressive）语音。（Chap. 8）<br>在交互、小说阅读等应用场景中，对合成语音的表现力要求较高，而表现力由内容、说话人音色、韵律、情感和风格等多个因素决定，因此高表现力语音合成实际涵盖了内容、音色、韵律、情感和风格的建模、分离和控制。<br>语音中包含的信息可以分为如下四类：<br>
+<br>字符或音素（？如果是phoneme，那该是音位），也就是语音的内容。可以通过预训练词嵌入增强合成语音的表现力和质量，或者加入一些额外的信息，比如升降调信息、采用fulllab能够增强模型表现力和稳定性。
+<br>说话人或音色。多说话人语音合成模型可以通过说话人嵌入向量或单独的说话人编码器（speaker encoder）对音色特征进行建模。
+<br>韵律、风格和情感。这些特征表示“如何说出文本”，表征语音中的语调、重音和说话节奏，韵律、风格和情感是高表现力语音合成的建模重点。
+<br>录音设备和环境噪音。这些倒是与语音内容、韵律无关，但会显著影响语音质量，因此可以尝试对语音中的噪音等进行控制和分离。对训练语料本身可以提前进行去噪处理，在模型中可以标识带噪语料，以便在合成语音中去除噪音部分。
+<br>利用模型建模这些信息的方法很多，有语种、说话人、风格嵌入向量以及音高、时长、能量编码器等显式建模方法，也有reference encoder、VAE、GAN/Flow/Diffusion、文本预训练等隐式建模方法。<br><br>（2）由于 TTS 模型面临顽健性（robustness）的问题——生成语音中的跳词、重复问题会影响语音质量，我们引入改善语音合成的顽健性的方法。（Chap. 9）<br>端到端语音合成自然度优势明显，但容易出现合成无法停止、调字、重复等合成缺陷，这在生产上是致命的。可以尝试从如下三个方面入手：<br>
+<br>训练数据。训练语料中的音频尽量降低背景噪音；控制前后静音段和句中静音，每个句子的前后静音段尽可能一致，句中L1/L3的停顿时长尽可能裁剪统一；确保文本标注和实际音频一一对应。
+<br>模型。合成语音的正确性是语音合成的基本要求，因此语音合成的稳定性有较多的研究工作。主要思路有：
+
+<br>增强注意力机制。由于语音合成任务具有单调性的特点，也就是输入音素一定是从左到右合成，因此可以利用该特点加入先验知识进行合成。
+<br>利用时长模型取代注意力机制。
+<br>增强自回归过程。比如减少训练、推断时的不匹配，知识蒸馏，教师强制等方法。
+<br>采用非自回归合成方法。输入序列进来之后一把出，防止自回归生成带来的累积误差。
+
+
+<br>后处理。比如统计音库中平均音素时长，合成时统计输入音素个数，计算该句子“平均时长”，合成语音的时长超过“平均时长”的30%则认为合成没有正常停止，裁剪该合成语音。
+<br><br>（3）由于神经 TTS 建模成一个 seq2seq 的生成任务，利用深度神经网络作为模型骨干、以自回归的方式生成语音，通常需要更大的推理时间和更高的计算/存储开销。因此，我们引入加速自回归生成及减少模型和计算尺寸的方法。（Chap. 10）<br><br>（4）在低数据资源的场景，训练 TTS 模型的数据不充足，合成的语音也许会有较低的可懂度和自然度。因此，我们引入为新的语言和新的说话人构建数据高效（data-efficient）的 TTS 模型的方法。（Chap. 11）<br>（5）最后，我们简要介绍一些 TTS 之外的任务，包括歌声合成（singing voice synthesis）、声音转换（voice conversion）、语音增强（speech enhancement）和语音分离（speech separation）。（Chap. 12）<br><a data-href="Phonetics and Synthesis#我们相信" href="phonetics\synthesis\phonetics-and-synthesis.html#我们相信" class="internal-link" target="_self" rel="noopener nofollow">Phonetics and Synthesis &gt; 我们相信</a><br><br><br>
+<br>
+原目标：合成可理解且自然的语音
+
+<br>可理解：已实现
+<br>自然：在有限的风格/说话者/语言上达到高质量，已实现
+
+
+<br>
+现在的目标：自然且更具人性化（human-like）
+
+<br>多样化的风格/说话者/语言
+<br>诸多努力以覆盖如此多的变化
+
+<br>韵律/情感/风格（Prosody/emotion/style）：无限种类
+<br>说话者/音色（Speaker/timbre）：全球数十亿说话者
+<br>内容/语言（Content/language）：数千种语言
+
+
+
+
+<br><img alt="Triangle.png" src="tts\neuraltts\img\triangle.png"><br>
+<br>实现新目标的范式
+
+<br>在大规模/多样化的数据上预训练（Pre-train）
+<br>针对特定风格/说话者/语言微调（Fine-tune）
+<br>在新风格/说话者/语言上零样本/上下文学习（Zero-shot/in-context learning）
+
+
+<br>Neural data representation/tokenization<br>Transformer and decoder-only based LLMs
+
+<br>AudioLM: 1) Semantic, 2) Semantic→CoarseAcoustic, 3) Coarse Acoustic→Fine Acoustic
+<br>SPEAR-TTS: 1) Text →Semantic Tokens, 2) Semantic →Acoustic
+<br>VALL-E: 1) Text→Acoustic1st, 2) Acoustic 1st→Acoustic 2nd-8th(NAR)
+
+<br><br>
+<br>随着大型语言模型（LLMs）和数据/模型的扩展，自回归模型（AR）表现出与非自回归模型（NAR）的竞争力
+
+<br>领域知识（时长对齐，duration alignment）在LLM时代之前显示出优势
+<br>简单的数据/模型扩展（数十万或数百万小时的数据）具有相同或更大的权重
+<br>从其他领域（如 LLM）的灵感可以在原本即将失去的战斗中带来新的变量
+
+
+<br><br>
+<br>大型语言模型（LLMs）的优势在于可扩展性和灵活性，而不是在每个单一任务上达到完美表现
+<br><br>（1）自回归或非自回归<br>（2）生成式模型：normal sequence generation model, Normalizing Flows (Flow), Generative Adversarial Networks (GAN), Variational Auto-Encoders (VAE), and Denoising Diffusion Probabilistic Models (DDPM or Diffusion)<br>（3）网络架构：CNN, RNN, self-attention, and hybrid structures (which contain more than one type of structure, such as CNN+RNN, and CNN+self-attention)<br><br><br><img alt="Evolution.png" src="tts\neuraltts\img\evolution.png">]]></description><link>tts\neuraltts\neural-text-to-speech.html</link><guid isPermaLink="false">TTS/NeuralTTS/Neural Text-to-Speech.md</guid><pubDate>Wed, 20 Nov 2024 14:00:36 GMT</pubDate><enclosure url="tts\neuraltts\img\knowledge.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;tts\neuraltts\img\knowledge.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Articulatory Synthesis]]></title><description><![CDATA[ 
+ <br><br>调音合成
+调音合成（articulatory synthesis）的发声，是通过模拟人类调音器官（articulators），如唇、舌、声门、活动的声道（moving vocal tract）等的行为。
+<br>1.实体（模仿人体器官） 2.电脑<br>理想情况下，调音合成可能是语音合成最有效的方法，因为这是人类产生语音的方式。<br>然而，实践中很难建模这些调音器官的行为。例如，难以收集用于调音器官模拟的数据。因此，调音合成的语音质量通常比后来的共振峰合成和拼接合成要差。]]></description><link>tts\articulatory-synthesis.html</link><guid isPermaLink="false">TTS/Articulatory Synthesis.md</guid><pubDate>Tue, 05 Nov 2024 16:53:24 GMT</pubDate></item><item><title><![CDATA[Concatenative Synthesis]]></title><description><![CDATA[ 
+ <br><br>拼接合成
+拼接合成（concatenative synthesis）依靠存储在数据库中的语音片段的拼接。推理时，拼接合成系统搜索语音片段以匹配给定输入文本，产生一个用这些单元拼接在一起的语音波形（waveform）。
+<br>主要有两类拼接语音合成：双音子合成（diphone synthesis）和单元选择合成（unit selection synthesis）。<br>双音子合成利用描述音素之间过渡的双音子，并在数据库中存储各双音子的单个示例，而单元选择合成则利用从整句到单个音素的语音单元，并在数据库中存储每个单元的多个片段。<br>一般来说，拼接合成能够生成具有高度可理解性、音色（timbre）接近原始配音演员（声优）的音频。然而，拼接合成需要庞大的录音数据库，以覆盖口语词所有可能的语音单元组合。另一个缺点是，生成的语音不够自然、缺乏情感，因为拼接可能导致在重音、情感、韵律等方面的平滑度降低。<br>历史知识]]></description><link>tts\concatenative-synthesis.html</link><guid isPermaLink="false">TTS/Concatenative Synthesis.md</guid><pubDate>Tue, 05 Nov 2024 16:57:57 GMT</pubDate></item><item><title><![CDATA[Formant Synthesis]]></title><description><![CDATA[ 
+ <br><br>共振峰合成
+共振峰合成（formant synthesis）的发声，基于一组规则，来控制简化的源-滤波器（source-filter）模型。这些规则通常是语言学家发展的，用以尽可能地模仿共振峰结构及语音的其他谱属性。语音通过一个加法合成（additive synthesis）模块和一个有着可变参数（如基频、带声/清浊【voicing】、噪声等级）的声学模型（acoustic model）来合成。
+<br>实体的（电路） 电脑的<br>共振峰合成可以用适中的计算资源（适合嵌入式系统），生成高度可理解的语音，且不像拼接合成那样依赖大规模的人类语音语料库。<br>然而，合成的语音听起来不太自然，并且存在伪影（artifact）。此外，指定合成规则也是一项挑战。]]></description><link>tts\formant-synthesis.html</link><guid isPermaLink="false">TTS/Formant Synthesis.md</guid><pubDate>Tue, 05 Nov 2024 16:57:42 GMT</pubDate></item><item><title><![CDATA[Statistical Parametric Synthesis]]></title><description><![CDATA[ 
+ <br><br>统计参数语音合成
+统计参数语音合成（statistical parametric speech synthesis，简称 SPSS），不再直接通过拼接生成波形，而是首先生成对于发声必要的声学参数，然后用一些算法从生成的声学参数中复原语音。
+<br>SPSS 通常包括三个组件：一个文本分析（text analysis）模块、一个参数预测模块（声学模型）、和一个声码器分析/合成模块（vocoder）。<br>文本分析模块首先处理文本，包括文本规范化、字音转换（grapheme-to-phoneme conversion, G2P conversion），分词（word segmentation）等。然后提取语言特征（linguistic features），如来自不同粒度（granularities）的音位（phonemes）、词性标签（POS tags）。<br>声学模型，如基于隐马尔可夫模型（HMM）的，是用成对的语言特征和参数（声学特征）训练的，其中声学特征包括基频（fundamental frequency）、频谱（spectrum）或倒谱（cepstrum）等，是通过声码器分析从音频中提取的。<br>声码器从预测的声学特征中合成语音。<br>SPSS 比起从前的 TTS 系统有几个优势：<br>
+<br>（1）灵活性，可以方便地修改参数来控制生成的语音；
+<br>（2）数据成本低，比拼接合成需要的录音更少。
+<br>然而，SPSS也有一些缺点：<br>
+<br>（1）生成的语音音频保真度（fidelity）较低，可能出现如闷声（muffled）、嗡嗡声或噪音等伪影；
+<br>（2） 生成的人声仍然机械，容易与人类录制的语音区分开。
+<br>2010年代，引入深度神经网络，用 DNN、RNN 等替换了 HMM，但遵从 SPSS 的范式，仍然从语言特征中预测声学特征。之后有人提出用音位序列取代语言特征，从中直接生成声学特征，是为第一个有着序列到序列（sequence-to-sequence，简称 seq2seq）框架的基于解码器-编码器（encoder-decoder）的 TTS 模型。]]></description><link>tts\statistical-parametric-synthesis.html</link><guid isPermaLink="false">TTS/Statistical Parametric Synthesis.md</guid><pubDate>Wed, 06 Nov 2024 00:11:17 GMT</pubDate></item><item><title><![CDATA[Voice Conversion]]></title><description><![CDATA[ 
+ ]]></description><link>vc\voice-conversion.html</link><guid isPermaLink="false">VC/Voice Conversion.md</guid><pubDate>Wed, 23 Oct 2024 01:11:47 GMT</pubDate></item><item><title><![CDATA[Speech-notes]]></title><description><![CDATA[ 
+ <br><br>Notes about speech<a data-footref="1" href="about:blank#fn-1-e276db82d3ebfc12" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a> processing, covering main branches one has to master.<br>语音处理 Speech Processing
+
+<br>语音科学 Speech Science(s?) 此处似更贴合德文 wiki 的 <a data-tooltip-position="top" aria-label="https://de-m-wikipedia-org.translate.goog/wiki/Sprechwissenschaft?_x_tr_sl=de&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp" rel="noopener nofollow" class="external-link" href="https://de-m-wikipedia-org.translate.goog/wiki/Sprechwissenschaft?_x_tr_sl=de&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp" target="_blank">Sprechwissenschaft</a>
+
+<br>声学 Acoustics
+<br>语音学 Phonetics
+<br>音系学 Phonology
+
+
+<br>音频信号处理 Audio Signal Processing
+<br>语音科技 Speech Technology
+
+<br>语音语言模型 Spoken Language Model, or Speech/Audio Language Model
+<br>语音表示学习 Speech Representation Learning
+<br>语音合成/文语转换 Speech Synthesis/Text-to-Speech
+<br>语音识别 (Automatic) Speech Recognition
+
+<br>语音情感识别 Speech Emotion Recognition
+<br>说话人识别 Speaker Recognition/Identification
+
+
+<br>变声 Voice Conversion 
+<br>语音增强 Speech Enhancement
+
+
+
+<br><br><br>
+<br>
+<br>Even though we highlight speech here, we believe that work in more general non-speech audio (e.g. music) and in other modalities (e.g. text, vision) are intertwined as well.<a href="about:blank#fnref-1-e276db82d3ebfc12" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+]]></description><link>readme.html</link><guid isPermaLink="false">README.md</guid><pubDate>Sun, 17 Nov 2024 15:24:11 GMT</pubDate></item></channel></rss>
