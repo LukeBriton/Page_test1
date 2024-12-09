@@ -1,6 +1,6 @@
 {
   "vaultName": "Speech-notes",
-  "lastExport": 1732671606781,
+  "lastExport": 1733715140787,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -20,6 +20,7 @@
     "TTS/NeuralTTS/Advanced Topics in TTS/Robust TTS/Robust TTS.md",
     "TTS/NeuralTTS/img/Evolution.png",
     "TTS/NeuralTTS/img/Frontend_Classic.png",
+    "TTS/NeuralTTS/img/heiga-zen-production.png",
     "TTS/NeuralTTS/img/History.png",
     "TTS/NeuralTTS/img/Human_Speech_Arch.png",
     "TTS/NeuralTTS/img/Knowledge.png",
@@ -28,6 +29,7 @@
     "TTS/NeuralTTS/img/Triangle.png",
     "TTS/NeuralTTS/img/TTS_System.png",
     "TTS/NeuralTTS/img/Typical_Pipeline.png",
+    "TTS/NeuralTTS/img/人体的发音器官.jpg",
     "TTS/NeuralTTS/img/历史.png",
     "TTS/NeuralTTS/Key Components in TTS/Acoustic Models/Acoustic Models.md",
     "TTS/NeuralTTS/Key Components in TTS/Acoustic Models/Advanced Generative Acoustic Models.md",
@@ -64,7 +66,10 @@
     "TTS/Formant Synthesis.md",
     "TTS/Statistical Parametric Synthesis.md",
     "VC/Voice Conversion.md",
+    "History.drawio",
     "README.md",
+    "Trump-8s.wav",
+    "未命名.canvas",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -128,31 +133,31 @@
   ],
   "fileInfo": {
     "ASR/E2E/E2E ASR.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 459,
       "exportedPath": "asr/e2e/e2e-asr.html",
       "dependencies": []
     },
     "ASR/Speech Recognition.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "asr/speech-recognition.html",
       "dependencies": []
     },
     "Phonetics/Synthesis/img/Then_and_Now.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 1172308,
       "exportedPath": "phonetics/synthesis/img/then_and_now.png",
       "dependencies": []
     },
     "Phonetics/Synthesis/img/Unifying_View.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 469640,
       "exportedPath": "phonetics/synthesis/img/unifying_view.png",
       "dependencies": []
     },
     "Phonetics/Synthesis/Phonetics and Synthesis.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 6202,
       "exportedPath": "phonetics/synthesis/phonetics-and-synthesis.html",
       "dependencies": [
@@ -163,284 +168,296 @@
       ]
     },
     "TTS/NeuralTTS/Advanced Topics in TTS/Data-Efficient TTS/Data-Efficient TTS.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/advanced-topics-in-tts/data-efficient-tts/data-efficient-tts.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Advanced Topics in TTS/Expressive and Controllable TTS/Categorization of Variation Information in Speech.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/advanced-topics-in-tts/expressive-and-controllable-tts/categorization-of-variation-information-in-speech.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Advanced Topics in TTS/Expressive and Controllable TTS/Expressive and Controllable TTS.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 235,
       "exportedPath": "tts/neuraltts/advanced-topics-in-tts/expressive-and-controllable-tts/expressive-and-controllable-tts.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Advanced Topics in TTS/Expressive and Controllable TTS/Modeling Variation Information for Controllable Synthesis.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/advanced-topics-in-tts/expressive-and-controllable-tts/modeling-variation-information-for-controllable-synthesis.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Advanced Topics in TTS/Expressive and Controllable TTS/Modeling Variation Information for Expressive Synthesis.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/advanced-topics-in-tts/expressive-and-controllable-tts/modeling-variation-information-for-expressive-synthesis.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Advanced Topics in TTS/Model-Efficient TTS/Model-Efficient TTS.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/advanced-topics-in-tts/model-efficient-tts/model-efficient-tts.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Advanced Topics in TTS/Robust TTS/Robust TTS.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/advanced-topics-in-tts/robust-tts/robust-tts.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/img/Evolution.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 1477299,
       "exportedPath": "tts/neuraltts/img/evolution.png",
       "dependencies": []
     },
     "TTS/NeuralTTS/img/Frontend_Classic.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 53736,
       "exportedPath": "tts/neuraltts/img/frontend_classic.png",
       "dependencies": []
     },
+    "TTS/NeuralTTS/img/heiga-zen-production.png": {
+      "modifiedTime": 1733715140787,
+      "sourceSize": 1903806,
+      "exportedPath": "tts/neuraltts/img/heiga-zen-production.png",
+      "dependencies": []
+    },
     "TTS/NeuralTTS/img/History.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 21218,
       "exportedPath": "tts/neuraltts/img/history.png",
       "dependencies": []
     },
     "TTS/NeuralTTS/img/Human_Speech_Arch.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 90199,
       "exportedPath": "tts/neuraltts/img/human_speech_arch.png",
       "dependencies": []
     },
     "TTS/NeuralTTS/img/Knowledge.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 640129,
       "exportedPath": "tts/neuraltts/img/knowledge.png",
       "dependencies": []
     },
     "TTS/NeuralTTS/img/Paths.jpg": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 102829,
       "exportedPath": "tts/neuraltts/img/paths.jpg",
       "dependencies": []
     },
     "TTS/NeuralTTS/img/Pipeline.jpg": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 85789,
       "exportedPath": "tts/neuraltts/img/pipeline.jpg",
       "dependencies": []
     },
     "TTS/NeuralTTS/img/Triangle.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 153786,
       "exportedPath": "tts/neuraltts/img/triangle.png",
       "dependencies": []
     },
     "TTS/NeuralTTS/img/TTS_System.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 17792,
       "exportedPath": "tts/neuraltts/img/tts_system.png",
       "dependencies": []
     },
     "TTS/NeuralTTS/img/Typical_Pipeline.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 34177,
       "exportedPath": "tts/neuraltts/img/typical_pipeline.png",
       "dependencies": []
     },
+    "TTS/NeuralTTS/img/人体的发音器官.jpg": {
+      "modifiedTime": 1733715140787,
+      "sourceSize": 91838,
+      "exportedPath": "tts/neuraltts/img/人体的发音器官.jpg",
+      "dependencies": []
+    },
     "TTS/NeuralTTS/img/历史.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 253591,
       "exportedPath": "tts/neuraltts/img/历史.png",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Acoustic Models/Acoustic Models.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 248,
       "exportedPath": "tts/neuraltts/key-components-in-tts/acoustic-models/acoustic-models.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Acoustic Models/Advanced Generative Acoustic Models.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/acoustic-models/advanced-generative-acoustic-models.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Acoustic Models/CNN-Based Acoustic Models.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/acoustic-models/cnn-based-acoustic-models.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Acoustic Models/RNN-Based Acoustic Models.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/acoustic-models/rnn-based-acoustic-models.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Acoustic Models/Transformer-Based Acoustic Models.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/acoustic-models/transformer-based-acoustic-models.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Fully End-to-End TTS/Fully End-to-End TTS.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/fully-end-to-end-tts/fully-end-to-end-tts.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Phonetic Analysis/Grapheme-to-Phoneme Conversion.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/phonetic-analysis/grapheme-to-phoneme-conversion.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Phonetic Analysis/Phonetic Analysis.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 105,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/phonetic-analysis/phonetic-analysis.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Phonetic Analysis/Polyphone Disambiguation.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/phonetic-analysis/polyphone-disambiguation.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Prosodic Analysis/Pause, Stress, and Intonation.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/prosodic-analysis/pause,-stress,-and-intonation.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Prosodic Analysis/Pitch, Duration, and Loudness.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/prosodic-analysis/pitch,-duration,-and-loudness.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Prosodic Analysis/Prosodic Analysis.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 107,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/prosodic-analysis/prosodic-analysis.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Linguistic Analysis/Homograph and Word Sense Disambiguation.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/text-processing/linguistic-analysis/homograph-and-word-sense-disambiguation.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Linguistic Analysis/Linguistic Analysis.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 1139,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/text-processing/linguistic-analysis/linguistic-analysis.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Linguistic Analysis/Part-of-Speech Tagging.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/text-processing/linguistic-analysis/part-of-speech-tagging.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Linguistic Analysis/Sentence Breaking and Type Detection.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/text-processing/linguistic-analysis/sentence-breaking-and-type-detection.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Linguistic Analysis/Word Phrase Segmentation.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/text-processing/linguistic-analysis/word-phrase-segmentation.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Document Structure Detection.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/text-processing/document-structure-detection.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Text Normalization.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/text-processing/text-normalization.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Processing/Text Processing.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 122,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/text-processing/text-processing.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Text Analyses/Text Analyses.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 736,
       "exportedPath": "tts/neuraltts/key-components-in-tts/text-analyses/text-analyses.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Vocoders/Autoregressive Vocoders.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/vocoders/autoregressive-vocoders.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Vocoders/Diffusion-Based Vocoders.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/vocoders/diffusion-based-vocoders.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Vocoders/Flow-Based Vocoders.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/vocoders/flow-based-vocoders.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Vocoders/GAN-Based Vocoders.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/vocoders/gan-based-vocoders.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Vocoders/Other Vocoders.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 0,
       "exportedPath": "tts/neuraltts/key-components-in-tts/vocoders/other-vocoders.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/Key Components in TTS/Vocoders/Vocoders.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 1646,
       "exportedPath": "tts/neuraltts/key-components-in-tts/vocoders/vocoders.html",
       "dependencies": []
     },
     "TTS/NeuralTTS/AR-NAR-TTS.pdf": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 2107019,
       "exportedPath": "tts/neuraltts/ar-nar-tts.pdf",
       "dependencies": []
     },
     "TTS/NeuralTTS/Neural Text-to-Speech.md": {
-      "modifiedTime": 1732671606781,
-      "sourceSize": 28376,
+      "modifiedTime": 1733715140787,
+      "sourceSize": 35919,
       "exportedPath": "tts/neuraltts/neural-text-to-speech.html",
       "dependencies": [
         "tts/neuraltts/img/knowledge.png",
@@ -453,6 +470,8 @@
         "tts/neuraltts/img/历史.png",
         "tts/neuraltts/img/human_speech_arch.png",
         "tts/neuraltts/img/human_speech_arch.png",
+        "tts/neuraltts/img/人体的发音器官.jpg",
+        "tts/neuraltts/img/heiga-zen-production.png",
         "tts/neuraltts/img/typical_pipeline.png",
         "tts/neuraltts/img/typical_pipeline.png",
         "tts/neuraltts/img/pipeline.jpg",
@@ -468,295 +487,334 @@
       ]
     },
     "TTS/NeuralTTS/Neural Text-to-Speech Synthesis-Editable.txt": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 899498,
       "exportedPath": "tts/neuraltts/neural-text-to-speech-synthesis-editable.txt",
       "dependencies": []
     },
     "TTS/Articulatory Synthesis.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 605,
       "exportedPath": "tts/articulatory-synthesis.html",
       "dependencies": []
     },
     "TTS/Concatenative Synthesis.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 1093,
       "exportedPath": "tts/concatenative-synthesis.html",
       "dependencies": []
     },
     "TTS/Formant Synthesis.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 838,
       "exportedPath": "tts/formant-synthesis.html",
       "dependencies": []
     },
     "TTS/Statistical Parametric Synthesis.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 2018,
       "exportedPath": "tts/statistical-parametric-synthesis.html",
       "dependencies": []
     },
     "VC/Voice Conversion.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 1,
       "exportedPath": "vc/voice-conversion.html",
       "dependencies": []
     },
+    "History.drawio": {
+      "modifiedTime": 1733715140787,
+      "sourceSize": 10522,
+      "exportedPath": "history.drawio",
+      "dependencies": []
+    },
     "README.md": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 1176,
       "exportedPath": "readme.html",
       "dependencies": []
     },
+    "Trump-8s.wav": {
+      "modifiedTime": 1733715140787,
+      "sourceSize": 670300,
+      "exportedPath": "trump-8s.wav",
+      "dependencies": []
+    },
+    "未命名.canvas": {
+      "modifiedTime": 1733715140787,
+      "sourceSize": 251,
+      "exportedPath": "未命名.html",
+      "dependencies": [
+        "trump-8s.wav",
+        "tts/neuraltts/img/paths.jpg"
+      ]
+    },
     "phonetics/synthesis/img/then_and_now.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 1172308,
       "exportedPath": "phonetics/synthesis/img/then_and_now.png",
       "dependencies": []
     },
     "phonetics/synthesis/img/unifying_view.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 469640,
       "exportedPath": "phonetics/synthesis/img/unifying_view.png",
       "dependencies": []
     },
     "tts/neuraltts/img/knowledge.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 640129,
       "exportedPath": "tts/neuraltts/img/knowledge.png",
       "dependencies": []
     },
     "tts/neuraltts/img/tts_system.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 17792,
       "exportedPath": "tts/neuraltts/img/tts_system.png",
       "dependencies": []
     },
     "tts/neuraltts/img/history.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 21218,
       "exportedPath": "tts/neuraltts/img/history.png",
       "dependencies": []
     },
     "tts/neuraltts/img/历史.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 253591,
       "exportedPath": "tts/neuraltts/img/历史.png",
       "dependencies": []
     },
     "tts/neuraltts/img/human_speech_arch.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 90199,
       "exportedPath": "tts/neuraltts/img/human_speech_arch.png",
       "dependencies": []
     },
+    "tts/neuraltts/img/人体的发音器官.jpg": {
+      "modifiedTime": 1733715140787,
+      "sourceSize": 91838,
+      "exportedPath": "tts/neuraltts/img/人体的发音器官.jpg",
+      "dependencies": []
+    },
+    "tts/neuraltts/img/heiga-zen-production.png": {
+      "modifiedTime": 1733715140787,
+      "sourceSize": 1903806,
+      "exportedPath": "tts/neuraltts/img/heiga-zen-production.png",
+      "dependencies": []
+    },
     "tts/neuraltts/img/typical_pipeline.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 34177,
       "exportedPath": "tts/neuraltts/img/typical_pipeline.png",
       "dependencies": []
     },
     "tts/neuraltts/img/pipeline.jpg": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 85789,
       "exportedPath": "tts/neuraltts/img/pipeline.jpg",
       "dependencies": []
     },
     "tts/neuraltts/img/paths.jpg": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 102829,
       "exportedPath": "tts/neuraltts/img/paths.jpg",
       "dependencies": []
     },
     "tts/neuraltts/img/frontend_classic.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 53736,
       "exportedPath": "tts/neuraltts/img/frontend_classic.png",
       "dependencies": []
     },
     "tts/neuraltts/img/triangle.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 153786,
       "exportedPath": "tts/neuraltts/img/triangle.png",
       "dependencies": []
     },
     "tts/neuraltts/img/evolution.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 1477299,
       "exportedPath": "tts/neuraltts/img/evolution.png",
       "dependencies": []
     },
+    "trump-8s.wav": {
+      "modifiedTime": 1733715140787,
+      "sourceSize": 670300,
+      "exportedPath": "trump-8s.wav",
+      "dependencies": []
+    },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1732671606781,
-      "sourceSize": 38034,
+      "modifiedTime": 1733715140787,
+      "sourceSize": 39800,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1732671606781,
-      "sourceSize": 5951,
+      "modifiedTime": 1733715140787,
+      "sourceSize": 5970,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 131118,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 334,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1732671606781,
+      "modifiedTime": 1733715140787,
       "sourceSize": 99,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []

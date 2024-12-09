@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Speech-notes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Speech-notes</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 27 Nov 2024 01:40:10 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 27 Nov 2024 01:40:06 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[End-to-End Speech Recognition: A Survey]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Speech-notes]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Speech-notes</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 09 Dec 2024 03:32:26 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 09 Dec 2024 03:32:20 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[End-to-End Speech Recognition: A Survey]]></title><description><![CDATA[ 
  <br><br>The term ”classical” here refers to the former long-term state-of-the-art ASR architecture based on the decomposition into acoustic and language model and with acoustic modeling based on hidden Markov models.<br>]]></description><link>asr\e2e\e2e-asr.html</link><guid isPermaLink="false">ASR/E2E/E2E ASR.md</guid><pubDate>Mon, 28 Oct 2024 14:51:13 GMT</pubDate></item><item><title><![CDATA[Speech Recognition]]></title><description><![CDATA[ 
  ]]></description><link>asr\speech-recognition.html</link><guid isPermaLink="false">ASR/Speech Recognition.md</guid><pubDate>Mon, 28 Oct 2024 14:47:19 GMT</pubDate></item><item><title><![CDATA[Phonetics and Synthesis]]></title><description><![CDATA[ 
  <br><br>Almost a Chinese translation of <a data-tooltip-position="top" aria-label="https://people.kth.se/~ghe/pubs/present/malisz2019modern-slides.pdf" rel="noopener nofollow" class="external-link" href="https://people.kth.se/~ghe/pubs/present/malisz2019modern-slides.pdf" target="_blank">Modern speech synthesis for phonetic sciences</a>, assisted by ChatGPT 4o.<br><br>
@@ -249,21 +249,47 @@ PSOLA, MBROLA, STRAIGHT 以创建、操纵语音 (Moulines and Charpentier, 1990
 <br>操纵 Manipulation
 <br>合成 Synthesis
 <br>分析过程主要是从一段原始声音波形中提取声学特征，比如线性谱、MFCC；操纵过程是指对提取的原始声学特征进行压缩等降维处理，使其表征能力进一步提升；合成过程是指将此声学特征恢复至原始波形。人类发声机理可以用经典的源-滤波器模型建模，也就是输入的激励部分通过线性时不变进行操作，输出的声道谐振部分作为合成语音。输入部分被称为激励部分（Source Excitation Part），激励部分对应肺部气流与声带共同作用形成的激励，输出结果被称为声道谐振部分（Vocal Tract Resonance Part），对应人类发音结构，而声道谐振部分对应于声道的调音部分，对声音进行调制。<br>声码器的发展可以分为两个阶段，包括用于统计参数语音合成（Statistical Parameteric Speech Synthesis，SPSS）基于信号处理的声码器，和基于神经网络的声码器。<br>常用基于信号处理的声码器包括Griffin-Lim和WORLD。早期神经声码器包括WaveNet、WaveRNN等，近年来神经声码器发展迅速，涌现出包括MelGAN、HiFiGAN、LPCNet、NHV等优秀的工作。]]></description><link>tts\neuraltts\key-components-in-tts\vocoders\vocoders.html</link><guid isPermaLink="false">TTS/NeuralTTS/Key Components in TTS/Vocoders/Vocoders.md</guid><pubDate>Wed, 06 Nov 2024 07:25:34 GMT</pubDate></item><item><title><![CDATA[Neural Text-to-Speech]]></title><description><![CDATA[ 
- <br><br><img alt="Knowledge.png" src="tts\neuraltts\img\knowledge.png"><br>问题：<br>
+ <br><br><img alt="Knowledge.png" src="tts\neuraltts\img\knowledge.png"><br>东抄抄西抄抄，这便是一个研究生能写就的书了。<br>
+——知识的搬运工<br>不希望落入我一直不齿的“防自学”教科书的窠臼。。<br>有英文的考虑指出确切的引用处（或是copy&amp;paste？），翻译，但是给出术语。<br>We may need a license in the future.<br>“梯度”<br>假定一个什么样的基础<br>知识上的完备、逻辑上的清晰、教育意义上的__？<br>实践性的材料、代码等<br>你并没有平日把握事事精髓的敏锐或是耐性，遗留在头脑中的往往只是粗枝大叶的末节，以致一切分析工作无从谈起<br>你的自省是能贯彻到底的吗。。。<br>“老派学人”、数学家、工程师<br>问题：<br>
 <br>更像是一个论文的Overview/Survey，综述性质的（很多主题稍微一点，后跟一串文献，没读过几篇，然后我现在列出来的效果并没有体现出知识点间的关联，而是单纯的树状图）
 <br>牵涉深度学习 很多时候似乎只能讲授“这帮子人希望达成一个怎样的（粗略、总体的）目标”
 <br>有很多主题更像是在传授实践中的“技艺”，或许是文献看的太少，理解不深
 <br>发展太快，根据一些talk以及作者在书中留下的蛛丝马迹，书中没怎么牵扯到的 codec 在这两年已经成为业界的 SOTA，加之对 Spoken/Speech/Audio LM 的研究，现如今 TTS 更像是作为语言建模的一个子任务。。。
-<br><br>
-<br>Neural Text-to-Speech Synthesis 2022 上半年 谭旭 <a rel="noopener nofollow" class="external-link" href="https://link.springer.com/book/10.1007/978-981-99-0827-1" target="_blank">https://link.springer.com/book/10.1007/978-981-99-0827-1</a>
+<br><br>整条理了以后传递下去吧<br>
+<br>
+Neural Text-to-Speech Synthesis 2022 上半年 谭旭 MSRA <a rel="noopener nofollow" class="external-link" href="https://link.springer.com/book/10.1007/978-981-99-0827-1" target="_blank">https://link.springer.com/book/10.1007/978-981-99-0827-1</a>
 
 <br>Recent Advances in Neural Speech Synthesis 2022年5月23日
 <br>Neural Speech Synthesis 2022年9月18日
-<br>Lessons From the Autoregressive/Non- autoregressive Battle in Speech Synthesis 2024年1月24日
+<br>Lessons From the Autoregressive/Non-autoregressive Battle in Speech Synthesis 2024年1月24日
 
 
-<br>Text-to-Speech 语音合成：从入门到放弃 2023年3月20日 <a rel="noopener nofollow" class="external-link" href="https://github.com/cnlinxi/book-text-to-speech/blob/13b04cdc25c9d6b90c093ed85ea6705ab8ac544b/text_to_speech.pdf" target="_blank">https://github.com/cnlinxi/book-text-to-speech/blob/13b04cdc25c9d6b90c093ed85ea6705ab8ac544b/text_to_speech.pdf</a>
-<br>What is AI speech generation currently capable of ? ACM Conversational User Interfaces 2024 (CUI2024), Simon King <a rel="noopener nofollow" class="external-link" href="https://speech.zone/media/images/Simon_King_CUI2024.pdf" target="_blank">https://speech.zone/media/images/Simon_King_CUI2024.pdf</a>
+<br>
+Text-to-Speech 语音合成：从入门到放弃 2022年3月20日 冬色 <a rel="noopener nofollow" class="external-link" href="https://github.com/cnlinxi/book-text-to-speech" target="_blank">https://github.com/cnlinxi/book-text-to-speech</a>
+
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/cnlinxi/book-text-to-speech/blob/13b04cdc25c9d6b90c093ed85ea6705ab8ac544b/text_to_speech.pdf" target="_blank">https://github.com/cnlinxi/book-text-to-speech/blob/13b04cdc25c9d6b90c093ed85ea6705ab8ac544b/text_to_speech.pdf</a>
+
+
+<br>
+Introduction to Speech Processing 2nd Edition, 2022, Tom Bäckström et al., Aalto-yliopiston（阿尔托大学） <a rel="noopener nofollow" class="external-link" href="https://speechprocessingbook.aalto.fi/" target="_blank">https://speechprocessingbook.aalto.fi/</a>
+
+<br>
+（课程讲义）SLP2324 Spoken Language Processing, 2023-2024, Luis Caldas de Oliveira, Universidade de Lisboa（里斯本大学） <a rel="noopener nofollow" class="external-link" href="https://learnius.com/slp" target="_blank">https://learnius.com/slp</a>
+
+<br>
+Speech and Language Processing (3rd ed. draft), August 20, 2024, Dan Jurafsky and James H. Martin, Stanford <a rel="noopener nofollow" class="external-link" href="https://web.stanford.edu/~jurafsky/slp3/" target="_blank">https://web.stanford.edu/~jurafsky/slp3/</a>
+
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/rain1024/slp2-pdf" target="_blank">https://github.com/rain1024/slp2-pdf</a>
+
+
+<br>
+（课程等）speech.zone, Simon King, Edinburgh <a rel="noopener nofollow" class="external-link" href="https://speech.zone/" target="_blank">https://speech.zone/</a>
+
+<br>
+Bavarian Archive for Speech Signals (BAS), LMU München（慕尼黑大学） <a rel="noopener nofollow" class="external-link" href="https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface" target="_blank">https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface</a>
+
+<br>
+What is AI speech generation currently capable of ? ACM Conversational User Interfaces 2024 (CUI2024), Simon King <a rel="noopener nofollow" class="external-link" href="https://speech.zone/media/images/Simon_King_CUI2024.pdf" target="_blank">https://speech.zone/media/images/Simon_King_CUI2024.pdf</a>
 
 <br>In-scope:
 
@@ -283,13 +309,29 @@ PSOLA, MBROLA, STRAIGHT 以创建、操纵语音 (Moulines and Charpentier, 1990
 
 
 
-<br>Sequence-to-sequence models <a rel="noopener nofollow" class="external-link" href="https://speech.zone/media/images/Simon_King_Speech_Synthesis_2023-24_class_slides_module_09.pdf" target="_blank">https://speech.zone/media/images/Simon_King_Speech_Synthesis_2023-24_class_slides_module_09.pdf</a>
-<br>What is “end-to-end” text-to-speech synthesis ? 2019 Simon King <a rel="noopener nofollow" class="external-link" href="https://speech.zone/media/images/Simon_King_Lancaster_2019_compressed_for_publication.pdf" target="_blank">https://speech.zone/media/images/Simon_King_Lancaster_2019_compressed_for_publication.pdf</a>
-<br>Speech Foundation Models 語音基石模型 2023/05/12 張凱爲 <a rel="noopener nofollow" class="external-link" href="https://kwchang.org/files/Speech%20_Foundation_Models.pdf" target="_blank">https://kwchang.org/files/Speech%20_Foundation_Models.pdf</a>
-<br>Parameter-Efficient Learning for Speech Processing 2023年6月4日 Kai-Wei Chang <a rel="noopener nofollow" class="external-link" href="https://kwchang.org/files/ICASSP23.pdf" target="_blank">https://kwchang.org/files/ICASSP23.pdf</a>
-<br>Speech Language Models: Prompting and Parameter Efficient Learning, 2024年4月15日, Kai-Wei Chang <a rel="noopener nofollow" class="external-link" href="https://kwchang.org/files/ICASSP24.pdf" target="_blank">https://kwchang.org/files/ICASSP24.pdf</a>
-<br>Challenges in Developing Spoken Language Models, Hung-yi Lee <a rel="noopener nofollow" class="external-link" href="https://drive.google.com/file/d/1gPjnjGKxeCF72gisPVuQlDvogXQCtNk4/view" target="_blank">https://drive.google.com/file/d/1gPjnjGKxeCF72gisPVuQlDvogXQCtNk4/view</a>
-<br>Speech Synthesis: Text-To-Speech Conversion and Artificial Voices, 2020, Jürgen Trouvain and Bernd Möbius, Handbook of the Changing World Language Map <a rel="noopener nofollow" class="external-link" href="https://link.springer.com/referencework/10.1007/978-3-030-02438-3" target="_blank">https://link.springer.com/referencework/10.1007/978-3-030-02438-3</a>
+<br>
+Sequence-to-sequence models <a rel="noopener nofollow" class="external-link" href="https://speech.zone/media/images/Simon_King_Speech_Synthesis_2023-24_class_slides_module_09.pdf" target="_blank">https://speech.zone/media/images/Simon_King_Speech_Synthesis_2023-24_class_slides_module_09.pdf</a>
+
+<br>
+What is “end-to-end” text-to-speech synthesis ? 2019 Simon King <a rel="noopener nofollow" class="external-link" href="https://speech.zone/media/images/Simon_King_Lancaster_2019_compressed_for_publication.pdf" target="_blank">https://speech.zone/media/images/Simon_King_Lancaster_2019_compressed_for_publication.pdf</a>
+
+<br>
+Speech Foundation Models 語音基石模型 2023/05/12 張凱爲 <a rel="noopener nofollow" class="external-link" href="https://kwchang.org/files/Speech%20_Foundation_Models.pdf" target="_blank">https://kwchang.org/files/Speech%20_Foundation_Models.pdf</a>
+
+<br>
+Parameter-Efficient Learning for Speech Processing 2023年6月4日 Kai-Wei Chang <a rel="noopener nofollow" class="external-link" href="https://kwchang.org/files/ICASSP23.pdf" target="_blank">https://kwchang.org/files/ICASSP23.pdf</a>
+
+<br>
+Speech Language Models: Prompting and Parameter Efficient Learning, 2024年4月15日, Kai-Wei Chang <a rel="noopener nofollow" class="external-link" href="https://kwchang.org/files/ICASSP24.pdf" target="_blank">https://kwchang.org/files/ICASSP24.pdf</a>
+
+<br>
+Challenges in Developing Spoken Language Models, 2023年9月13日, Hung-yi Lee <a rel="noopener nofollow" class="external-link" href="https://drive.google.com/file/d/1gPjnjGKxeCF72gisPVuQlDvogXQCtNk4/view" target="_blank">https://drive.google.com/file/d/1gPjnjGKxeCF72gisPVuQlDvogXQCtNk4/view</a>
+
+<br>
+The Journey of Advancements in Speech Foundation Models: A road map towards speech version of ChatGPT 2023年12月19日 Hung-yi Lee <a rel="noopener nofollow" class="external-link" href="https://drive.google.com/file/d/1ZWfnOEZp9StcX6UcaGmjEmwEm14dHhTg/view" target="_blank">https://drive.google.com/file/d/1ZWfnOEZp9StcX6UcaGmjEmwEm14dHhTg/view</a>
+
+<br>
+Speech Synthesis: Text-To-Speech Conversion and Artificial Voices, 2020, Jürgen Trouvain and Bernd Möbius, Handbook of the Changing World Language Map <a rel="noopener nofollow" class="external-link" href="https://link.springer.com/referencework/10.1007/978-3-030-02438-3" target="_blank">https://link.springer.com/referencework/10.1007/978-3-030-02438-3</a>
 
 <br>Out-scope:
 
@@ -298,34 +340,131 @@ PSOLA, MBROLA, STRAIGHT 以创建、操纵语音 (Moulines and Charpentier, 1990
 
 
 
-<br>Text-to-Speech Synthesis, 志賀 芳則 等, 2020, Speech-to-Speech Translation <a rel="noopener nofollow" class="external-link" href="https://link.springer.com/book/10.1007/978-981-15-0595-9" target="_blank">https://link.springer.com/book/10.1007/978-981-15-0595-9</a>
+<br>
+Text-to-Speech Synthesis, 志賀 芳則 等, 2020, Speech-to-Speech Translation <a rel="noopener nofollow" class="external-link" href="https://link.springer.com/book/10.1007/978-981-15-0595-9" target="_blank">https://link.springer.com/book/10.1007/978-981-15-0595-9</a>
 
 <br>Some novel approaches that do not consider the aforementioned separation of the TTS process have been proposed very recently, which allow the acoustic features (or speech waveform itself) to be produced directly from text, by fully exploiting the latest deep learning techniques. Such “end-to-end” approaches are still challenging and a detailed description of these is beyond the scope of this book.
 
 
-<br>Towards audio language modeling - an overview 2024年2月20日 <a rel="noopener nofollow" class="external-link" href="https://arxiv.org/abs/2402.13236" target="_blank">https://arxiv.org/abs/2402.13236</a>
-<br>武执政 <a rel="noopener nofollow" class="external-link" href="https://drwuz.com/CSC3160/" target="_blank">https://drwuz.com/CSC3160/</a> <a rel="noopener nofollow" class="external-link" href="https://slpcourse.github.io/" target="_blank">https://slpcourse.github.io/</a>
-<br><br>语音合成
+<br>
+Towards audio language modeling - an overview 2024年2月20日 <a rel="noopener nofollow" class="external-link" href="https://arxiv.org/abs/2402.13236" target="_blank">https://arxiv.org/abs/2402.13236</a>
+
+<br><br>TODO: 学完，概括，点评！！！<br>此前自己过分地倚重文本（课件），一方面轻视实践（HW），一方面又不去看（即便有）讲课视频，未免丢失许多要点，不易把握脉络、关键。诚然有个well-structured, self-contained样式的讲义是好的。。但常常只在搞数学的人手里见到。<br>
+<br>
+SLP2324 Spoken Language Processing, 2023-2024, Luis Caldas de Oliveira, Universidade de Lisboa（里斯本大学） <a rel="noopener nofollow" class="external-link" href="https://learnius.com/slp" target="_blank">https://learnius.com/slp</a>
+
+<br>
+CS224S: Spoken Language Processing, Spring 2024, Andrew Maas, Stanford <a rel="noopener nofollow" class="external-link" href="https://web.stanford.edu/class/cs224s/semesters/2024-spring/syllabus" target="_blank">https://web.stanford.edu/class/cs224s/semesters/2024-spring/syllabus</a>
+
+<br>
+HY578 Digital Speech Signal Processing <a data-tooltip-position="top" aria-label="http://www.csd.uoc.gr/~hy578/" rel="noopener nofollow" class="external-link" href="http://www.csd.uoc.gr/~hy578/" target="_blank">www.csd.uoc.gr/~hy578/</a>
+
+<br>
+Yandex School of Data Analysis (YSDA) course in Speech Processing, Spring 2024 <a rel="noopener nofollow" class="external-link" href="https://github.com/yandexdataschool/speech_course" target="_blank">https://github.com/yandexdataschool/speech_course</a>
+
+<br>Week 6: <a data-tooltip-position="top" aria-label="https://docs.google.com/presentation/d/1MAAAc_2vRS2jhxZlqfpx0m7Z3MY9J1jyXgdl7XStFf8/edit?usp=sharing" rel="noopener nofollow" class="external-link" href="https://docs.google.com/presentation/d/1MAAAc_2vRS2jhxZlqfpx0m7Z3MY9J1jyXgdl7XStFf8/edit?usp=sharing" target="_blank">Slides</a> | <a data-tooltip-position="top" aria-label="https://disk.yandex.ru/i/X6Se5K14FF91Ow" rel="noopener nofollow" class="external-link" href="https://disk.yandex.ru/i/X6Se5K14FF91Ow" target="_blank">Lecture</a>
+
+<br>Lecture: Text-to-Speech I, intro, preprocessor, metrics
+
+
+<br>Week 7: <a data-tooltip-position="top" aria-label="https://docs.google.com/presentation/d/1CO1_5xzZb7mYLfQfdhqN0350dNCkgLt6hHB7smUjdGA/edit?usp=sharing" rel="noopener nofollow" class="external-link" href="https://docs.google.com/presentation/d/1CO1_5xzZb7mYLfQfdhqN0350dNCkgLt6hHB7smUjdGA/edit?usp=sharing" target="_blank">Slides</a> | <a data-tooltip-position="top" aria-label="https://disk.yandex.ru/i/YW_TVQMGKbuYag" rel="noopener nofollow" class="external-link" href="https://disk.yandex.ru/i/YW_TVQMGKbuYag" target="_blank">Lecture</a>
+
+<br>Lecture: Text-to-Speech II, Acoustic models
+<br>Seminar: Pitch estimation, Monotonic Alignment Search for phoneme duration estimation
+
+
+
+
+<br>
+Week 8: <a data-tooltip-position="top" aria-label="https://docs.google.com/presentation/d/1QU5sUe8_uGEiFs-IFua7EU5_imsZK2TRuKJ_6IY4O9k/edit?usp=sharing" rel="noopener nofollow" class="external-link" href="https://docs.google.com/presentation/d/1QU5sUe8_uGEiFs-IFua7EU5_imsZK2TRuKJ_6IY4O9k/edit?usp=sharing" target="_blank">Slides, p1</a> | <a data-tooltip-position="top" aria-label="https://disk.yandex.ru/d/R4p0hupEJrF02g" rel="noopener nofollow" class="external-link" href="https://disk.yandex.ru/d/R4p0hupEJrF02g" target="_blank">Lecture, p1</a> | <a data-tooltip-position="top" aria-label="https://docs.google.com/presentation/d/143qUGId_yvMKx3IDOcErF5M1V6NXHmHp30GuRryhHxs/edit?usp=sharing" rel="noopener nofollow" class="external-link" href="https://docs.google.com/presentation/d/143qUGId_yvMKx3IDOcErF5M1V6NXHmHp30GuRryhHxs/edit?usp=sharing" target="_blank">Slides, p2</a> | <a data-tooltip-position="top" aria-label="https://disk.yandex.ru/d/abw48YXapfwvfw" rel="noopener nofollow" class="external-link" href="https://disk.yandex.ru/d/abw48YXapfwvfw" target="_blank">Lecture, p2</a> | <a data-tooltip-position="top" aria-label="https://disk.yandex.ru/i/XSr1jKD_ah4hkg" rel="noopener nofollow" class="external-link" href="https://disk.yandex.ru/i/XSr1jKD_ah4hkg" target="_blank">Seminar</a>
+
+<br>Lecture, p1: Text-to-Speech III, Vocoding
+<br>Lecture, p2: Vector Quantization, Codecs
+<br>Seminar: Vector Quantizaton, Residual Vector Quantization
+
+
+<br>
+Week 9: <a data-tooltip-position="top" aria-label="https://docs.google.com/presentation/d/1ARlJHMr_c0R2g5Od-66ZTTuZGRxdTCjAzX2LQ9XPFdQ/edit#slide=id.g1f4de8b9e93_0_1414" rel="noopener nofollow" class="external-link" href="https://docs.google.com/presentation/d/1ARlJHMr_c0R2g5Od-66ZTTuZGRxdTCjAzX2LQ9XPFdQ/edit#slide=id.g1f4de8b9e93_0_1414" target="_blank">Slides</a> | <a data-tooltip-position="top" aria-label="https://disk.yandex.ru/i/80GAO85GUjRzKA" rel="noopener nofollow" class="external-link" href="https://disk.yandex.ru/i/80GAO85GUjRzKA" target="_blank">Lecture, p1</a> | <a data-tooltip-position="top" aria-label="https://disk.yandex.ru/i/icrNEsu17jL7hA" rel="noopener nofollow" class="external-link" href="https://disk.yandex.ru/i/icrNEsu17jL7hA" target="_blank">Lecture, p2</a>
+
+<br>Lecture: Tranformers for TTS
+
+
+<br>
+COMS 6998: Advanced Topics in Spoken Language Processing, Spring 2025, Julia Hirschberg, Columbia <a rel="noopener nofollow" class="external-link" href="https://www.cs.columbia.edu/~julia/courses/CS6998-25/syllabus25.html" target="_blank">https://www.cs.columbia.edu/~julia/courses/CS6998-25/syllabus25.html</a>
+
+<br>Fall 2024 <a rel="noopener nofollow" class="external-link" href="https://www.cs.columbia.edu/~julia/courses/CS6998-24/syllabus24b.html" target="_blank">https://www.cs.columbia.edu/~julia/courses/CS6998-24/syllabus24b.html</a>
+
+
+<br>
+CSC3160 Fundamentals of Speech and Language Processing (Co-Listing) AIR6063: Spoken Language Processing, Spring 2024, 武执政, 香港中文大学（深圳） <a rel="noopener nofollow" class="external-link" href="https://drwuz.com/CSC3160/" target="_blank">https://drwuz.com/CSC3160/</a>
+
+<br>Spring 2023 <a rel="noopener nofollow" class="external-link" href="https://slpcourse.github.io/" target="_blank">https://slpcourse.github.io/</a>
+
+
+<br>
+(Text v.s. Speech = 5 : 5) DLHLP Deep Learning for Human Language Processing, 2020 Spring, 李宏毅, 台大, <a rel="noopener nofollow" class="external-link" href="https://speech.ee.ntu.edu.tw/~hylee/dlhlp/2020-spring.php" target="_blank">https://speech.ee.ntu.edu.tw/~hylee/dlhlp/2020-spring.php</a>
+
+<br>西电的NLP也是这个路数（至少在谷老师这里）
+
+
+<br>
+CSC2518-Spoken-Language-Processing <a rel="noopener nofollow" class="external-link" href="https://www.cs.toronto.edu/~gpenn/csc2518/index.html" target="_blank">https://www.cs.toronto.edu/~gpenn/csc2518/index.html</a>
+
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/wangy319/CSC2518-Spoken-Language-Processing" target="_blank">https://github.com/wangy319/CSC2518-Spoken-Language-Processing</a>
+
+
+<br>
+CS 378 Speech Audio Processing <a rel="noopener nofollow" class="external-link" href="https://www.cs.utexas.edu/~harwath/" target="_blank">https://www.cs.utexas.edu/~harwath/</a>
+
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/davidy87/speech-audio-processing" target="_blank">https://github.com/davidy87/speech-audio-processing</a>
+
+
+<br>
+Hugging Face Audio course huggingface.co/learn/audio-course/
+
+<br>
+Audio &amp; Speech Tutorial <a rel="noopener nofollow" class="external-link" href="https://github.com/koudounasalkis/Audio-Speech-Tutorial" target="_blank">https://github.com/koudounasalkis/Audio-Speech-Tutorial</a>
+
+<br>
+<a rel="noopener nofollow" class="external-link" href="https://developers.google.com/machine-learning" target="_blank">https://developers.google.com/machine-learning</a>
+
+<br>
+<a rel="noopener nofollow" class="external-link" href="https://groups.google.com/g/duluthnlp" target="_blank">https://groups.google.com/g/duluthnlp</a>
+
+<br><br>别慌！一文教你看懂GPT-4o背后的语音技术 - 林唯秀的文章 - 知乎<br>
+<a rel="noopener nofollow" class="external-link" href="https://zhuanlan.zhihu.com/p/698725358" target="_blank">https://zhuanlan.zhihu.com/p/698725358</a><br>chinesenlp.xyz/<br><a rel="noopener nofollow" class="external-link" href="https://www.digitalhumanities.unito.it/do/corsi.pl/Show?_id=nxwv" target="_blank">https://www.digitalhumanities.unito.it/do/corsi.pl/Show?_id=nxwv</a><br><a rel="noopener nofollow" class="external-link" href="https://www.meta-speech.com/" target="_blank">https://www.meta-speech.com/</a><br><br>语音合成
 文语转换（Text-to-speech synthesis，简称 TTS），或语音合成（speech synthesis），旨在从文本生成可懂、自然（范式转移了！还需要 human-like）的语音。广义上的语音合成涵盖了从任何信息源生成语音的任务，还包括变声器、歌唱合成等。语音合成在使机器能够讲话方面起关键作用，并且是人工智能和自然语言/语音处理中的一项重要任务。开发语音合成系统需要具备语言和人类语音产生的知识，并涉及多个学科，包括语言学、声学、数字信号处理以及机器学习。<br>
 Neural Text-to-Speech Synthesis, 谭旭, P1
-<br><img alt="TTS_System.png" src="tts\neuraltts\img\tts_system.png"><br><br><br><img alt="History.png" src="tts\neuraltts\img\history.png"><br><img alt="历史.png" src="tts\neuraltts\img\历史.png"><br><br>参考：<br>根据语音合成研究的历史，如图所示，语音合成研究方法可以分为：调音合成（机械式语音合成器、电子式语音合成器）、共振峰参数合成器、基于波形拼接的语音合成、统计参数语音合成、以及神经网络语音合成。<br><br>语音信号的产生分为两个阶段，信息编码和生理控制。首先在大脑中出现某种想要表达的想法，然后由大脑将其编码为具体的语言文字序列，及语音中可能存在的强调、重读等韵律信息。经过语言的组织，大脑通过控制发音器官肌肉的运动，产生出相应的语音信号。其中第一阶段主要涉及人脑语言处理方面，第二阶段涉及语音信号产生的生理机制。<br>（之后换张更好的图）<br>
-<img alt="Human_Speech_Arch.png" src="tts\neuraltts\img\human_speech_arch.png"><br>从滤波的角度，人体涉及发音的器官可以分为两部分：激励系统和声道系统，如图所示。激励系统中，储存于肺部的空气源，经过胸腔的压缩排出，经过气管进入声带，根据发音单元决定是否产生振动，形成准周期的脉冲空气激励流或噪声空气激励流。这些空气流作为激励，进入声道系统，被频率整形，形成不同的声音。声道系统包括咽喉、口腔（舌、唇、颌和口）组成，可能还包括鼻道。不同周期的脉冲空气流或者噪声空气流，以及不同声道器官的位置决定了产生的声音。因此，语音合成中通常将语音的建模分解为激励建模和声道建模。<br>语音合成的早期工作主要是通过源-滤波器模型对语音产生的过程进行模拟。最开始的机械式语音合成器，使用风箱模拟人的肺部运动，产生激励空气流，采用振动弹簧片和皮革模拟声道系统，通过手动协调各部分运动，能够合成出五个长元音。机械式的语音合成器难以实用，随着时代的发展，贝尔实验室提出了电子式的语音合成器。不再模拟具体的生理器官，电子式语音合成器通过脉冲发射器和噪声发射器来分别产生模拟浊音和清音的激励系统，通过操作人员手动控制多个带通滤波器来模拟声道系统，最后通过放大器输出语音信号。<br><br>由于电子式语音合成器使用有限个带通滤波器模拟声道系统，对自然语音的频谱特征的刻画精度有限。为了更好地刻画声道系统，共振峰参数合成器被提出。共振峰参数合成器将声道系统看成一个谐振腔，利用共振峰频率和宽度等声道的谐振特性，构建声道滤波器，以更好地刻画语音的声道特性。然而由于共振峰参数合成器结构复杂，需要大量人工分析调整参数，难以实用。<br><br>早期的语音合成方法由于模型简单，系统复杂等原因，难以在实际场景应用。随着计算机技术的发展，基于波形拼接的语音合成被提出。基于波形拼接的语音合成的基本原理是首先构建一个音库，在合成阶段，通过对合成文本的分析，按照一定的准则，从音库中挑选出与待合成语音相似的声学单元，对这些声学单元进行少量调整，拼接得到合成的语音。早期的波形拼接系统受限于音库大小、挑选算法、拼接调整的限制，合成语音质量较低。1990年，基于同步叠加的时域波形修改算法被提出，解决了声学单元拼接处的局部不连续问题。更进一步，基于大语料库的波形拼接语音合成方法被提出，采用更精细的挑选策略，将语音音库极大地拓展，大幅提升了合成语音的自然度。由于直接使用发音人的原始语音，基于波形拼接的语音合成方法合成语音的音质接近自然语音，被广泛应用。但其缺点也较为明显，包括音库制作时间长、需要保存整个音库、拓展性差、合成语音自然度受音库和挑选算法影响，顽健性（Robustness）不高等。<br><br>随着统计建模理论的完善，以及对语音信号理解的深入，基于统计参数的语音合成方法被提出。其基本原理是使用统计模型，对语音的参数化表征进行建模。在合成阶段，给定待合成文本，使用统计模型预测出对应的声学参数，经过声码器合成语音波形。统计参数语音合成方法是目前的主流语音合成方法之一。统计参数音合成方法的优点很多，包括只需要较少的人工干预，能够快速地自动构建系统，同时具有较强的灵活性，能够适应不同发音人，不同发音风格，多语种的语音合成，具有较强的鲁棒性等。由于语音参数化表示以及统计建模的平均效应，统计参数语音合成方法生成的语音自然度相比自然语音通常会有一定的差距。基于隐马尔科夫的统计参数语音合成方法是发展最为完善的一种。基于HMM的统计参数语音合成系统能够同时对语音的基频、频谱和时长进行建模，生成出连续流畅且可懂度高的语音，被广泛应用，但其合成音质较差。<br><br><br>随着深度学习的发展，提出了基于神经网络的 TTS （neural network-based TTS），简称神经 TTS，采用（深度）神经网络作为语音合成的模型骨干。一些早期的神经模型用于 SPSS 以替代 HMM 进行声学建模。后来提出了 WaveNet，直接从语言特征生成波形，可以视为第一个现代神经 TTS 模型。其他模型如 DeepVoice 1/2 仍然 SPSS 中的三个组件，但用相应的基于神经网络的模型进行了升级。神经网络在 SPSS 中只用于声学模型，而在神经 TTS 中用于声学模型和声码器。<br>此外，提出了一些端到端模型（如 Char2Wav，Tacotron 1/2，Deep Voice 3 和 FastSpeech 1/2）用以简化文本分析模块，直接以字符/音素序列作为输入，并用 mel 语谱简化声学特征。后来，开发了完全端到端的 TTS 系统，直接从文本生成波形，例如 ClariNet，FastSpeech 2s，EATS 和 NaturalSpeech。<br>TTS 术语“端到端”（end-to-end）意义含混。早期研究中，“端到端”指的是文本到语谱（text-to-spectrogram）的模型是端到端的，但仍然使用一个分开的波形合成器（声码器）。它也泛指未使用复杂的语言或声学特征的神经 TTS 模型。比如，WaveNet 没用到声学特征，而是直接根据语言特征生成波形。Tacotron 没用到语言特征，而是直接由字符或音位生成语谱。然而，严格的端到端模型指直接从文本生成波形。因此，我们用“端到端”、“更端到端”（more end-to-end），“完全端到端”（fully end-to-end）来区分 TTS 模型端到端的程度。<br>神经 TTS 摒弃了以往 TTS 系统所需的大部分先验知识，纯粹通过数据进行端到端学习。<br>由于其强大的学习数据表示（表示学习 representation learning）和建模数据分布（生成式模型 generative modeling）能力，神经 TTS 能够实现与人类录音一样自然的 high voice quality。<br>与以前基于拼接合成和统计参数合成的 TTS 系统相比，基于神经网络的语音合成的优点包括在可懂度（intelligibility）和自然度（naturalness）方面的 high voice quality，并且对人类预处理和特征开发的要求更少。<br><br>通常包括三个组件：一个文本分析（text analysis）模块、一个声学模型（acoustic model）、和一个声码器（vocoder）。<br><br>
-<br>
-Text analysis: text → linguistic features
-
-<br>
-Acoustic model: linguistic features → acoustic features
-
-<br>
-Vocoder: acoustic features → speech
-
-<br>
-Linguistic features: phoneme, prosody features
-
-<br>
-Acoustic features: mel-spectrogram, discrete token, latent vector
-
-<br>尽管一些端到端模型没有明确使用文本分析（如 Tacotron 2）、声学模型（如 WaveNet）或声码器（如 Tacotron），并且一些系统仅使用单个端到端模型（如 FastSpeech 2s 和 NaturalSpeech），但这些组件的使用仍然流行于当前 （2022年上半年，现在未必） 的 TTS 研究和产品中。<br><img alt="./img/Typical_Pipeline.png" src="tts\neuraltts\img\typical_pipeline.png"><br>请注意，一些近期的 TTS 系统学习了诸如连续向量（continuous vectors）或离散词例（discrete tokens）等中间表示，而不是传统的 mel 语谱（mel-spectrogram），利用神经音频编解码器（neural audio codec）（2024年：NAR dominates Vocoder (Codec)；LLMs revive the AR/NAR battle） 在文本和语音之间建立映射。这些系统利用声学模型或语言模型（language model）生成这些连续向量或离散词例，并通过编解码器的解码器根据这些中间表示生成波形。<br>谭旭：<br><br><img alt="Pipeline.jpg" src="tts\neuraltts\img\pipeline.jpg"><br><img alt="Paths.jpg" src="tts\neuraltts\img\paths.jpg"><br>武执政：<br>两段<br><br>三段<br><br>Simon King:<br>2019<br><br>2024<br><br>Daniel Jurafsky：<br><br><br><img alt="Frontend_Classic" src="tts\neuraltts\img\frontend_classic.png"><br>文本前端的作用是从文本中提取发音和语言学信息，其任务至少包括以下四点。<br>Text Analyses
+<br><img alt="TTS_System.png" src="tts\neuraltts\img\tts_system.png"><br><br><br><img alt="History.png" src="tts\neuraltts\img\history.png"><br><img alt="历史.png" src="tts\neuraltts\img\历史.png"><br><br>参考：<br><a rel="noopener nofollow" class="external-link" href="https://speech.zone/interactive-unit-selection/" target="_blank">https://speech.zone/interactive-unit-selection/</a><br>根据语音合成研究的历史，如图所示，语音合成研究方法可以分为：调音合成（机械式语音合成器、电子式语音合成器）、共振峰参数合成器、基于波形拼接的语音合成、统计参数语音合成、以及神经网络语音合成。<br><br><a rel="noopener nofollow" class="external-link" href="https://www.imaginary.org/program/pink-trombone" target="_blank">https://www.imaginary.org/program/pink-trombone</a><br><a rel="noopener nofollow" class="external-link" href="https://github.com/zakaton/Pink-Trombone" target="_blank">https://github.com/zakaton/Pink-Trombone</a><br><a rel="noopener nofollow" class="external-link" href="https://pink-trombone-demos.glitch.me/" target="_blank">https://pink-trombone-demos.glitch.me/</a><br>语音信号的产生分为两个阶段，信息编码和生理控制。首先在大脑中出现某种想要表达的想法，然后由大脑将其编码为具体的语言文字序列，及语音中可能存在的强调、重读等韵律信息。经过语言的组织，大脑通过控制发音器官肌肉的运动，产生出相应的语音信号。其中第一阶段主要涉及人脑语言处理方面，第二阶段涉及语音信号产生的生理机制。<br>（之后换张更好的图）<br>
+<img alt="Human_Speech_Arch.png" src="tts\neuraltts\img\human_speech_arch.png"><br><img alt="人体的发音器官.jpg" src="tts\neuraltts\img\人体的发音器官.jpg"><br>
+（《语音识别基本法》 引自《人工智能》）<br>
+<img alt="heiga-zen-production.png" src="tts\neuraltts\img\heiga-zen-production.png"><br>
+（引自 <a data-tooltip-position="top" aria-label="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45882.pdf%EF%BC%89" rel="noopener nofollow" class="external-link" href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45882.pdf%EF%BC%89" target="_blank">https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45882.pdf）</a><br>从滤波的角度，人体涉及发音的器官可以分为两部分：激励系统和声道系统，如图所示。激励系统中，储存于肺部的空气源，经过胸腔的压缩排出，经过气管进入声带，根据发音单元决定是否产生振动，形成准周期的脉冲空气激励流或噪声空气激励流。这些空气流作为激励，进入声道系统，被频率整形，形成不同的声音。声道系统包括咽喉、口腔（舌、唇、颌和口）组成，可能还包括鼻道。不同周期的脉冲空气流或者噪声空气流，以及不同声道器官的位置决定了产生的声音。因此，语音合成中通常将语音的建模分解为激励建模和声道建模。<br>语音合成的早期工作主要是通过源-滤波器模型对语音产生的过程进行模拟。最开始的机械式语音合成器，使用风箱模拟人的肺部运动，产生激励空气流，采用振动弹簧片和皮革模拟声道系统，通过手动协调各部分运动，能够合成出五个长元音。机械式的语音合成器难以实用，随着时代的发展，贝尔实验室提出了电子式的语音合成器。不再模拟具体的生理器官，电子式语音合成器通过脉冲发射器和噪声发射器来分别产生模拟浊音和清音的激励系统，通过操作人员手动控制多个带通滤波器来模拟声道系统，最后通过放大器输出语音信号。<br><br>由于电子式语音合成器使用有限个带通滤波器模拟声道系统，对自然语音的频谱特征的刻画精度有限。为了更好地刻画声道系统，共振峰参数合成器被提出。共振峰参数合成器将声道系统看成一个谐振腔，利用共振峰频率和宽度等声道的谐振特性，构建声道滤波器，以更好地刻画语音的声道特性。然而由于共振峰参数合成器结构复杂，需要大量人工分析调整参数，难以实用。<br><br>早期的语音合成方法由于模型简单，系统复杂等原因，难以在实际场景应用。随着计算机技术的发展，基于波形拼接的语音合成被提出。基于波形拼接的语音合成的基本原理是首先构建一个音库，在合成阶段，通过对合成文本的分析，按照一定的准则，从音库中挑选出与待合成语音相似的声学单元，对这些声学单元进行少量调整，拼接得到合成的语音。早期的波形拼接系统受限于音库大小、挑选算法、拼接调整的限制，合成语音质量较低。1990年，基于同步叠加的时域波形修改算法被提出，解决了声学单元拼接处的局部不连续问题。更进一步，基于大语料库的波形拼接语音合成方法被提出，采用更精细的挑选策略，将语音音库极大地拓展，大幅提升了合成语音的自然度。由于直接使用发音人的原始语音，基于波形拼接的语音合成方法合成语音的音质接近自然语音，被广泛应用。但其缺点也较为明显，包括音库制作时间长、需要保存整个音库、拓展性差、合成语音自然度受音库和挑选算法影响，顽健性（Robustness）不高等。<br><br>随着统计建模理论的完善，以及对语音信号理解的深入，基于统计参数的语音合成方法被提出。其基本原理是使用统计模型，对语音的参数化表征进行建模。在合成阶段，给定待合成文本，使用统计模型预测出对应的声学参数，经过声码器合成语音波形。统计参数语音合成方法是目前的主流语音合成方法之一。统计参数音合成方法的优点很多，包括只需要较少的人工干预，能够快速地自动构建系统，同时具有较强的灵活性，能够适应不同发音人，不同发音风格，多语种的语音合成，具有较强的鲁棒性等。由于语音参数化表示以及统计建模的平均效应，统计参数语音合成方法生成的语音自然度相比自然语音通常会有一定的差距。基于隐马尔科夫的统计参数语音合成方法是发展最为完善的一种。基于HMM的统计参数语音合成系统能够同时对语音的基频、频谱和时长进行建模，生成出连续流畅且可懂度高的语音，被广泛应用，但其合成音质较差。<br><br><br>随着深度学习的发展，提出了基于神经网络的 TTS （neural network-based TTS），简称神经 TTS，采用（深度）神经网络作为语音合成的模型骨干。一些早期的神经模型用于 SPSS 以替代 HMM 进行声学建模。后来提出了 WaveNet，直接从语言特征生成波形，可以视为第一个现代神经 TTS 模型。其他模型如 DeepVoice 1/2 仍然 SPSS 中的三个组件，但用相应的基于神经网络的模型进行了升级。神经网络在 SPSS 中只用于声学模型，而在神经 TTS 中用于声学模型和声码器。<br>此外，提出了一些端到端模型（如 Char2Wav，Tacotron 1/2，Deep Voice 3 和 FastSpeech 1/2）用以简化文本分析模块，直接以字符/音素序列作为输入，并用 mel 语谱简化声学特征。后来，开发了完全端到端的 TTS 系统，直接从文本生成波形，例如 ClariNet，FastSpeech 2s，EATS 和 NaturalSpeech。<br>
+<br>什么将 “使用了神经网络的SPSS”和“Neural TTS”分开？
+<br>承认中间地带<br>不能只是因为多把vocoder替换成了NN吧。。。<br>“中间产物”一条感觉也适用这里<br>
+<br>什么将端到端和多阶段的流水线分隔开？
+<br>3个环节的训练。。。-&gt;1/2个环节<br>“中间产物/表示”的意义更含糊，但是包含的信息更多？比较F_0和Mel谱, 各种向量之类（主要是仍不了解倒谱之类，改悔！）<br>看法（出典！）：端到端意味着<br>
+<br>为什么追求严格的端到端？
+<br>错误/误差的累积？<br>训练的成本？<br>（Tsiaras-2023-SpeechSythesis.pdf P42）<br>
+Known problems with two stage acoustic models<br>usually use mel-scale spectrograms as intermediate representation<br>训练 vocoder 的 ground truth mel spectrograms 分布不一样（why？）<br>对AR影响不太大，但是NAR。。。<br>Solutions:<br>
+<br>a) Use end-to-end models
+<br>b) Use more robust intermediate representations（或许是为什么用 向量 之类？）<br>
+为什么没有 c) 不用NAR。。。（看法：NAR方便并行，值得一试）
+<br>TTS 术语“端到端”（end-to-end）意义含混。早期研究中，“端到端”指的是文本到语谱（text-to-spectrogram）的模型是端到端的，但仍然使用一个分开的波形合成器（声码器）。它也泛指未使用复杂的语言或声学特征的神经 TTS 模型。比如，WaveNet 没用到声学特征，而是直接根据语言特征生成波形。Tacotron 没用到语言特征，而是直接由字符或音位生成语谱。然而，严格的端到端模型指直接从文本生成波形。因此，我们用“端到端”、“更端到端”（more end-to-end），“完全端到端”（fully end-to-end）来区分 TTS 模型端到端的程度。<br>神经 TTS 摒弃了以往 TTS 系统所需的大部分先验知识，纯粹通过数据进行端到端学习。<br>由于其强大的学习数据表示（表示学习 representation learning）和建模数据分布（生成式模型 generative modeling）能力，神经 TTS 能够实现与人类录音一样自然的 high voice quality。<br>与以前基于拼接合成和统计参数合成的 TTS 系统相比，基于神经网络的语音合成的优点包括在可懂度（intelligibility）和自然度（naturalness）方面的 high voice quality，并且对人类预处理和特征开发的要求更少。<br><br>通常包括三个组件：一个文本分析（text analysis）模块、一个声学模型（acoustic model）、和一个声码器（vocoder）。<br><br>
+<br>Text analysis: text → linguistic features<br>
+Text Decoding (Word Tokenization and Normalization)<br>
+Texts include non-standard word<br>
+sequences from a variety of different semiotic classes.
+<br>Acoustic model: linguistic features → acoustic features<br>
+F0, V/UV, energy, Mel scale Frequency Cepstral<br>
+Coefficients (MFCC), Bark Frequency Cepstral<br>
+Coefficients (BFCC), Linear prediction coefficient<br>
+(LPC)<br>
+Linear spectrogram, Mel spectrogram
+<br>Vocoder: acoustic features → speech
+<br>Linguistic features: phoneme, prosody features
+<br>Acoustic features: mel-spectrogram, discrete token, latent vector (ar-nar-tts.pdf) <a rel="noopener nofollow" class="external-link" href="https://ai.stackexchange.com/questions/12499/why-is-it-called-latent-vector" target="_blank">https://ai.stackexchange.com/questions/12499/why-is-it-called-latent-vector</a>
+<br>尽管一些端到端模型没有明确使用文本分析（如 Tacotron 2）、声学模型（如 WaveNet）或声码器（如 Tacotron），并且一些系统仅使用单个端到端模型（如 FastSpeech 2s 和 NaturalSpeech），但这些组件的使用仍然流行于当前 （2022年上半年，现在未必） 的 TTS 研究和产品中。<br><img alt="./img/Typical_Pipeline.png" src="tts\neuraltts\img\typical_pipeline.png"><br>请注意，一些近期的 TTS 系统学习了诸如连续向量（continuous vectors）或离散词例（discrete tokens）等中间表示，而不是传统的 mel 语谱（mel-spectrogram），利用神经音频编解码器（neural audio codec）（2024年：NAR dominates Vocoder (Codec)；LLMs revive the AR/NAR battle） 在文本和语音之间建立映射。这些系统利用声学模型或语言模型（language model）生成这些连续向量或离散词例，并通过编解码器的解码器根据这些中间表示生成波形。<br>谭旭：<br><br><img alt="Pipeline.jpg" src="tts\neuraltts\img\pipeline.jpg"><br><img alt="Paths.jpg" src="tts\neuraltts\img\paths.jpg"><br>武执政：<br>两段<br><br>三段<br><br>Simon King:<br>2019<br><br>2024<br><br>Daniel Jurafsky：<br><br>Sisamaki Eirini <br>（TTSsurvey_8.pdf）Text To Speech Synthesis: Current trends<br><br><br><img alt="Frontend_Classic" src="tts\neuraltts\img\frontend_classic.png"><br>文本前端的作用是从文本中提取发音和语言学信息，其任务至少包括以下四点。<br>Text Analyses
 
 <br>文本正则化
 
@@ -411,7 +550,7 @@ Acoustic features: mel-spectrogram, discrete token, latent vector
 
 <br><br>
 <br>大型语言模型（LLMs）的优势在于可扩展性和灵活性，而不是在每个单一任务上达到完美表现
-<br><br>（1）自回归或非自回归<br>（2）生成式模型：normal sequence generation model, Normalizing Flows (Flow), Generative Adversarial Networks (GAN), Variational Auto-Encoders (VAE), and Denoising Diffusion Probabilistic Models (DDPM or Diffusion)<br>（3）网络架构：CNN, RNN, self-attention, and hybrid structures (which contain more than one type of structure, such as CNN+RNN, and CNN+self-attention)<br><br><br><img alt="Evolution.png" src="tts\neuraltts\img\evolution.png">]]></description><link>tts\neuraltts\neural-text-to-speech.html</link><guid isPermaLink="false">TTS/NeuralTTS/Neural Text-to-Speech.md</guid><pubDate>Wed, 20 Nov 2024 14:00:36 GMT</pubDate><enclosure url="tts\neuraltts\img\knowledge.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;tts\neuraltts\img\knowledge.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Articulatory Synthesis]]></title><description><![CDATA[ 
+<br><br>（1）自回归或非自回归<br>（2）生成式模型：normal sequence generation model, Normalizing Flows (Flow), Generative Adversarial Networks (GAN), Variational Auto-Encoders (VAE), and Denoising Diffusion Probabilistic Models (DDPM or Diffusion)<br>（3）网络架构：CNN, RNN, self-attention, and hybrid structures (which contain more than one type of structure, such as CNN+RNN, and CNN+self-attention)<br><br><br><img alt="Evolution.png" src="tts\neuraltts\img\evolution.png">]]></description><link>tts\neuraltts\neural-text-to-speech.html</link><guid isPermaLink="false">TTS/NeuralTTS/Neural Text-to-Speech.md</guid><pubDate>Sun, 08 Dec 2024 05:16:06 GMT</pubDate><enclosure url="tts\neuraltts\img\knowledge.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;tts\neuraltts\img\knowledge.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Articulatory Synthesis]]></title><description><![CDATA[ 
  <br><br>调音合成
 调音合成（articulatory synthesis）的发声，是通过模拟人类调音器官（articulators），如唇、舌、声门、活动的声道（moving vocal tract）等的行为。
 <br>1.实体（模仿人体器官） 2.电脑<br>理想情况下，调音合成可能是语音合成最有效的方法，因为这是人类产生语音的方式。<br>然而，实践中很难建模这些调音器官的行为。例如，难以收集用于调音器官模拟的数据。因此，调音合成的语音质量通常比后来的共振峰合成和拼接合成要差。]]></description><link>tts\articulatory-synthesis.html</link><guid isPermaLink="false">TTS/Articulatory Synthesis.md</guid><pubDate>Tue, 05 Nov 2024 16:53:24 GMT</pubDate></item><item><title><![CDATA[Concatenative Synthesis]]></title><description><![CDATA[ 
@@ -431,7 +570,7 @@ Acoustic features: mel-spectrogram, discrete token, latent vector
 <br>（2） 生成的人声仍然机械，容易与人类录制的语音区分开。
 <br>2010年代，引入深度神经网络，用 DNN、RNN 等替换了 HMM，但遵从 SPSS 的范式，仍然从语言特征中预测声学特征。之后有人提出用音位序列取代语言特征，从中直接生成声学特征，是为第一个有着序列到序列（sequence-to-sequence，简称 seq2seq）框架的基于解码器-编码器（encoder-decoder）的 TTS 模型。]]></description><link>tts\statistical-parametric-synthesis.html</link><guid isPermaLink="false">TTS/Statistical Parametric Synthesis.md</guid><pubDate>Wed, 06 Nov 2024 00:11:17 GMT</pubDate></item><item><title><![CDATA[Voice Conversion]]></title><description><![CDATA[ 
  ]]></description><link>vc\voice-conversion.html</link><guid isPermaLink="false">VC/Voice Conversion.md</guid><pubDate>Wed, 23 Oct 2024 01:11:47 GMT</pubDate></item><item><title><![CDATA[Speech-notes]]></title><description><![CDATA[ 
- <br><br>Notes about speech<a data-footref="1" href="about:blank#fn-1-e276db82d3ebfc12" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a> processing, covering main branches one has to master.<br>语音处理 Speech Processing
+ <br><br>Notes about speech<a data-footref="1" href="about:blank#fn-1-16bc50e40cc0c9e7" class="footnote-link" target="_self" rel="noopener nofollow">[1]</a> processing, covering main branches one has to master.<br>语音处理 Speech Processing
 
 <br>语音科学 Speech Science(s?) 此处似更贴合德文 wiki 的 <a data-tooltip-position="top" aria-label="https://de-m-wikipedia-org.translate.goog/wiki/Sprechwissenschaft?_x_tr_sl=de&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp" rel="noopener nofollow" class="external-link" href="https://de-m-wikipedia-org.translate.goog/wiki/Sprechwissenschaft?_x_tr_sl=de&amp;_x_tr_tl=en&amp;_x_tr_hl=en&amp;_x_tr_pto=wapp" target="_blank">Sprechwissenschaft</a>
 
@@ -459,5 +598,5 @@ Acoustic features: mel-spectrogram, discrete token, latent vector
 
 <br><br><br>
 <br>
-<br>Even though we highlight speech here, we believe that work in more general non-speech audio (e.g. music) and in other modalities (e.g. text, vision) are intertwined as well.<a href="about:blank#fnref-1-e276db82d3ebfc12" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
+<br>Even though we highlight speech here, we believe that work in more general non-speech audio (e.g. music) and in other modalities (e.g. text, vision) are intertwined as well.<a href="about:blank#fnref-1-16bc50e40cc0c9e7" class="footnote-backref footnote-link" target="_self" rel="noopener nofollow">↩︎</a>
 ]]></description><link>readme.html</link><guid isPermaLink="false">README.md</guid><pubDate>Sun, 17 Nov 2024 15:24:11 GMT</pubDate></item></channel></rss>
